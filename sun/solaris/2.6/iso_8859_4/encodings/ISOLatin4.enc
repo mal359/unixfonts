@@ -1,0 +1,200 @@
+### ISO 8859-4 encoding -- ISO Latin 4 alphabet
+STARTENCODING 1.0
+NAME PostScript ISOLatin4EncodingVector
+NAME X11 iso8859-4
+CODELENGTH 1
+STARTCHARACTERS 191
+ 32 space                     /*  20  */
+ 33 exclam                    /*  21  */
+ 34 quotedbl                  /*  22  */
+ 35 numbersign                /*  23  */
+ 36 dollar                    /*  24  */
+ 37 percent                   /*  25  */
+ 38 ampersand                 /*  26  */
+ 39 quotesingle               /*  27  */
+ 40 parenleft                 /*  28  */
+ 41 parenright                /*  29  */
+ 42 asterisk                  /*  2A  */
+ 43 plus                      /*  2B  */
+ 44 comma                     /*  2C  */
+ 45 hyphen                    /*  2D  */
+ 46 period                    /*  2E  */
+ 47 slash                     /*  2F  */
+ 48 zero                      /*  30  */
+ 49 one                       /*  31  */
+ 50 two                       /*  32  */
+ 51 three                     /*  33  */
+ 52 four                      /*  34  */
+ 53 five                      /*  35  */
+ 54 six                       /*  36  */
+ 55 seven                     /*  37  */
+ 56 eight                     /*  38  */
+ 57 nine                      /*  39  */
+ 58 colon                     /*  3A  */
+ 59 semicolon                 /*  3B  */
+ 60 less                      /*  3C  */
+ 61 equal                     /*  3D  */
+ 62 greater                   /*  3E  */
+ 63 question                  /*  3F  */
+ 64 at                        /*  40  */
+ 65 A                         /*  41  */
+ 66 B                         /*  42  */
+ 67 C                         /*  43  */
+ 68 D                         /*  44  */
+ 69 E                         /*  45  */
+ 70 F                         /*  46  */
+ 71 G                         /*  47  */
+ 72 H                         /*  48  */
+ 73 I                         /*  49  */
+ 74 J                         /*  4A  */
+ 75 K                         /*  4B  */
+ 76 L                         /*  4C  */
+ 77 M                         /*  4D  */
+ 78 N                         /*  4E  */
+ 79 O                         /*  4F  */
+ 80 P                         /*  50  */
+ 81 Q                         /*  51  */
+ 82 R                         /*  52  */
+ 83 S                         /*  53  */
+ 84 T                         /*  54  */
+ 85 U                         /*  55  */
+ 86 V                         /*  56  */
+ 87 W                         /*  57  */
+ 88 X                         /*  58  */
+ 89 Y                         /*  59  */
+ 90 Z                         /*  5A  */
+ 91 bracketleft               /*  5B  */
+ 92 backslash                 /*  5C  */
+ 93 bracketright              /*  5D  */
+ 94 asciicircum               /*  5E  */
+ 95 underscore                /*  5F  */
+ 96 grave                     /*  60  */
+ 97 a                         /*  61  */
+ 98 b                         /*  62  */
+ 99 c                         /*  63  */
+100 d                         /*  64  */
+101 e                         /*  65  */
+102 f                         /*  66  */
+103 g                         /*  67  */
+104 h                         /*  68  */
+105 i                         /*  69  */
+106 j                         /*  6A  */
+107 k                         /*  6B  */
+108 l                         /*  6C  */
+109 m                         /*  6D  */
+110 n                         /*  6E  */
+111 o                         /*  6F  */
+112 p                         /*  70  */
+113 q                         /*  71  */
+114 r                         /*  72  */
+115 s                         /*  73  */
+116 t                         /*  74  */
+117 u                         /*  75  */
+118 v                         /*  76  */
+119 w                         /*  77  */
+120 x                         /*  78  */
+121 y                         /*  79  */
+122 z                         /*  7A  */
+123 braceleft                 /*  7B  */
+124 bar                       /*  7C  */
+125 braceright                /*  7D  */
+126 asciitilde                /*  7E  */
+160 space                     /*  A0  */
+161 Aogonek                   /*  A1  */
+162 kgreenlandic              /*  A2  */
+163 Rcommaaccent              /*  A3  */
+164 currency                  /*  A4  */
+165 Itilde                    /*  A5  */
+166 Lcommaaccent              /*  A6  */
+167 section                   /*  A7  */
+168 dieresis                  /*  A8  */
+169 Scaron                    /*  A9  */
+170 Emacron                   /*  AA  */
+171 Gcommaaccent              /*  AB  */
+172 Tbar                      /*  AC  */
+173 hyphen                    /*  AD  */
+174 Zcaron                    /*  AE  */
+175 macron                    /*  AF  */
+176 degree                    /*  B0  */
+177 aogonek                   /*  B1  */
+178 ogonek                    /*  B2  */
+179 rcommaaccent              /*  B3  */
+180 acute                     /*  B4  */
+181 itilde                    /*  B5  */
+182 lcommaaccent              /*  B6  */
+183 caron                     /*  B7  */
+184 cedilla                   /*  B8  */
+185 scaron                    /*  B9  */
+186 emacron                   /*  BA  */
+187 gcommaaccent              /*  BB  */
+188 tbar                      /*  BC  */
+189 Eng                       /*  BD  */
+190 zcaron                    /*  BE  */
+191 eng                       /*  BF  */
+192 Amacron                   /*  C0  */
+193 Aacute                    /*  C1  */
+194 Acircumflex               /*  C2  */
+195 Atilde                    /*  C3  */
+196 Adieresis                 /*  C4  */
+197 Aring                     /*  C5  */
+198 AE                        /*  C6  */
+199 Iogonek                   /*  C7  */
+200 Ccaron                    /*  C8  */
+201 Eacute                    /*  C9  */
+202 Eogonek                   /*  CA  */
+203 Edieresis                 /*  CB  */
+204 Edotaccent                /*  CC  */
+205 Iacute                    /*  CD  */
+206 Icircumflex               /*  CE  */
+207 Imacron                   /*  CF  */
+208 Dcroat                    /*  D0  */
+209 Ncommaaccent              /*  D1  */
+210 Omacron                   /*  D2  */
+211 Kcommaaccent              /*  D3  */
+212 Ocircumflex               /*  D4  */
+213 Otilde                    /*  D5  */
+214 Odieresis                 /*  D6  */
+215 multiply                  /*  D7  */
+216 Oslash                    /*  D8  */
+217 Uogonek                   /*  D9  */
+218 Uacute                    /*  DA  */
+219 Ucircumflex               /*  DB  */
+220 Udieresis                 /*  DC  */
+221 Utilde                    /*  DD  */
+222 Umacron                   /*  DE  */
+223 germandbls                /*  DF  */
+224 amacron                   /*  E0  */
+225 aacute                    /*  E1  */
+226 acircumflex               /*  E2  */
+227 atilde                    /*  E3  */
+228 adieresis                 /*  E4  */
+229 aring                     /*  E5  */
+230 ae                        /*  E6  */
+231 iogonek                   /*  E7  */
+232 ccaron                    /*  E8  */
+233 eacute                    /*  E9  */
+234 eogonek                   /*  EA  */
+235 edieresis                 /*  EB  */
+236 edotaccent                /*  EC  */
+237 iacute                    /*  ED  */
+238 icircumflex               /*  EE  */
+239 imacron                   /*  EF  */
+240 dcroat                    /*  F0  */
+241 ncommaaccent              /*  F1  */
+242 omacron                   /*  F2  */
+243 kcommaaccent              /*  F3  */
+244 ocircumflex               /*  F4  */
+245 otilde                    /*  F5  */
+246 odieresis                 /*  F6  */
+247 divide                    /*  F7  */
+248 oslash                    /*  F8  */
+249 uogonek                   /*  F9  */
+250 uacute                    /*  FA  */
+251 ucircumflex               /*  FB  */
+252 udieresis                 /*  FC  */
+253 utilde                    /*  FD  */
+254 umacron                   /*  FE  */
+255 dotaccent                 /*  FF  */
+ENDCHARACTERS
+ENDENCODING
+

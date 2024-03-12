@@ -1,0 +1,16 @@
+%!PS-Adobefont-1.0
+%%Title: Bookman-DemiItalic
+%%BeginResource: font Bookman-DemiItalic
+ 
+/BookmanOldStyle-BoldItalic findfont dup length dict dup % font dict dict
+3 -1 roll                               % dict dict font
+{ 1 index /FID ne 2 index /UniqueID ne and
+        { 2 index 3 1 roll put }
+        { pop pop } ifelse
+} forall 
+ 
+dup /FontName /Bookman-DemiItalic put
+/Bookman-DemiItalic exch definefont pop
+
+%%EndResource
+%%EOF

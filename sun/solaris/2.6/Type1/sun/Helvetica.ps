@@ -1,0 +1,16 @@
+%!PS-Adobefont-1.0
+%%Title: Helvetica
+%%BeginResource: font Helvetica
+ 
+/Arial findfont dup length dict dup % font dict dict
+3 -1 roll                               % dict dict font
+{ 1 index /FID ne 2 index /UniqueID ne and
+        { 2 index 3 1 roll put }
+        { pop pop } ifelse
+} forall 
+ 
+dup /FontName /Helvetica put
+/Helvetica exch definefont pop
+
+%%EndResource
+%%EOF

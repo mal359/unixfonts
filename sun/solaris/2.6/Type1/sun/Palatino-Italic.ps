@@ -1,0 +1,16 @@
+%!PS-Adobefont-1.0
+%%Title: Palatino-Italic
+%%BeginResource: font Palatino-Italic
+ 
+/BookAntiqua-Italic findfont dup length dict dup % font dict dict
+3 -1 roll                               % dict dict font
+{ 1 index /FID ne 2 index /UniqueID ne and
+        { 2 index 3 1 roll put }
+        { pop pop } ifelse
+} forall 
+ 
+dup /FontName /Palatino-Italic put
+/Palatino-Italic exch definefont pop
+
+%%EndResource
+%%EOF
