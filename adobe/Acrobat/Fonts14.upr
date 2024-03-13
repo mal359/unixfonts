@@ -1,0 +1,45 @@
+PS-Resources-1.0
+FontAxes
+FontBlendMap
+FontBlendPositions
+FontFamily
+FontOutline
+.
+FontAxes
+AdobeSansMM==/Weight /Width 
+AdobeSerifMM==/Weight /Width 
+.
+FontBlendMap
+AdobeSansMM==[[50 0][1450 1]][[50 0][1450 1]]
+AdobeSerifMM==[[110 0][790 1]][[100 0][900 1]]
+.
+FontBlendPositions
+AdobeSansMM== [0 0] [1 0] [0 1] [1 1] 
+AdobeSerifMM== [0 0] [1 0] [0 1] [1 1] 
+.
+FontFamily
+Adobe Sans MM.MMM=Roman,AdobeSansMM.MMM
+Adobe Serif MM.MMM=Roman,AdobeSerifMM.MMM
+Adobe Sans MM=Roman,AdobeSansMM
+Adobe Serif MM=Roman,AdobeSerifMM
+Courier=Bold Oblique,Courier-BoldOblique,Bold,Courier-Bold,Medium,Courier,Oblique,Courier-Oblique
+Helvetica=Bold Oblique,Helvetica-BoldOblique,Bold,Helvetica-Bold,Medium,Helvetica,Oblique,Helvetica-Oblique
+ITC Zapf Dingbats=Medium,ZapfDingbats
+Symbol=Medium,Symbol
+.
+FontOutline
+AdobeSansMM.MMM=AdobeSansMM.MMM
+AdobeSerifMM.MMM=AdobeSerifMM.MMM
+AdobeSansMM=AdobeSansMM
+AdobeSerifMM=AdobeSerifMM
+Courier=Courier
+Courier-Bold=Courier-Bold
+Courier-BoldOblique=Courier-BoldOblique
+Courier-Oblique=Courier-Oblique
+Helvetica=/usr/lib/DPS/outline/base/Helvetica
+Helvetica-Bold=/usr/lib/DPS/outline/base/Helvetica-Bold
+Helvetica-BoldOblique=/usr/lib/DPS/outline/base/Helvetica-BoldOblique
+Helvetica-Oblique=/usr/lib/DPS/outline/base/Helvetica-Oblique
+Symbol=Symbol
+ZapfDingbats=ZapfDingbats
+.
