@@ -1,0 +1,149 @@
+! $Xorg: fonts.alias,v 1.3 2000/08/21 16:42:31 coskrey Exp $
+fixed        -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1
+vtsingle     -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1
+variable     -*-helvetica-bold-r-normal-*-*-120-*-*-*-*-iso8859-1
+5x7          -misc-fixed-medium-r-normal--7-70-75-75-c-50-iso8859-1
+5x8          -misc-fixed-medium-r-normal--8-80-75-75-c-50-iso646.1991-irv
+6x9          -misc-fixed-medium-r-normal--9-90-75-75-c-60-iso646.1991-irv
+6x10         -misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
+6x12         -misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso646.1991-irv
+6x13         -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1
+6x13bold     -misc-fixed-bold-r-semicondensed--13-120-75-75-c-60-iso8859-1
+7x13         -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-1
+7x13bold     -misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-1
+7x13euro     -misc-fixed-medium-r-normal--13-120-75-75-c-70-fcd8859-15
+7x13eurobold -misc-fixed-bold-r-normal--13-120-75-75-c-70-fcd8859-15
+7x13euro     -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-15
+7x13eurobold -misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-15
+7x14         -misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-1
+7x14bold     -misc-fixed-bold-r-normal--14-130-75-75-c-70-iso8859-1
+8x13         -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
+8x13bold     -misc-fixed-bold-r-normal--13-120-75-75-c-80-iso8859-1
+8x16         -sony-fixed-medium-r-normal--16-120-100-100-c-80-iso8859-1
+9x15         -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-1
+9x15bold     -misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-1
+10x20        -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1
+12x24        -sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1
+nil2         -misc-nil-medium-r-normal--2-20-75-75-c-10-misc-fontspecific
+a14          -misc-fixed-medium-r-normal--14-*-*-*-*-*-iso8859-1
+
+olcursor   "-sun-open look cursor-----12-120-75-75-p-160-sunolcursor-1"
+olglyph-10 "-sun-open look glyph-----10-100-75-75-p-101-sunolglyph-1"
+olglyph-12 "-sun-open look glyph-----12-120-75-75-p-113-sunolglyph-1"
+olglyph-14 "-sun-open look glyph-----14-140-75-75-p-128-sunolglyph-1"
+olglyph-19 "-sun-open look glyph-----19-190-75-75-p-154-sunolglyph-1"
+
+-misc-fixed-medium-r-normal--7-50-100-100-c-50-iso8859-1 -misc-fixed-medium-r-normal--7-70-75-75-c-50-iso8859-1
+-misc-fixed-medium-r-normal--8-60-100-100-c-50-iso8859-1 -misc-fixed-medium-r-normal--8-80-75-75-c-50-iso8859-1
+-misc-fixed-medium-r-normal--9-80-100-100-c-60-iso8859-1 -misc-fixed-medium-r-normal--9-90-75-75-c-60-iso8859-1
+-misc-fixed-medium-r-normal--10-70-100-100-c-60-iso8859-1 -misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
+-misc-fixed-medium-r-semicondensed--12-90-100-100-c-60-iso8859-1 -misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-1
+-misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1 -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1
+-misc-fixed-bold-r-semicondensed--13-100-100-100-c-60-iso8859-1 -misc-fixed-bold-r-semicondensed--13-120-75-75-c-60-iso8859-1
+-misc-fixed-medium-r-normal--13-100-100-100-c-70-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-1
+-misc-fixed-bold-r-normal--13-100-100-100-c-70-iso8859-1 -misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-1
+-misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
+-misc-fixed-bold-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-bold-r-normal--13-120-75-75-c-80-iso8859-1
+-misc-fixed-medium-r-normal--14-110-100-100-c-70-iso8859-1 -misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-1
+-misc-fixed-medium-r-normal--15-120-100-100-c-90-iso8859-1 -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-1
+-misc-fixed-bold-r-normal--15-120-100-100-c-90-iso8859-1 -misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-1
+-misc-fixed-medium-r-normal--20-140-100-100-c-100-iso8859-1 -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1
+-sony-fixed-medium-r-normal--16-150-75-75-c-80-iso8859-1 -sony-fixed-medium-r-normal--16-120-100-100-c-80-iso8859-1
+-sony-fixed-medium-r-normal--24-230-75-75-c-120-iso8859-1 -sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1
+
+! These fonts are not really ISO8859-1, but these aliases are provided
+! for compatibility with X11R5.
+
+-misc-fixed-medium-r-normal--8-80-75-75-c-50-iso8859-1 -misc-fixed-medium-r-normal--8-80-75-75-c-50-iso646.1991-irv
+-misc-fixed-medium-r-normal--9-90-75-75-c-60-iso8859-1 -misc-fixed-medium-r-normal--9-90-75-75-c-60-iso646.1991-irv
+-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-1 -misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso646.1991-irv
+
+-schumacher-clean-medium-r-normal--12-120-75-75-c-80-iso8859-1 -schumacher-clean-medium-r-normal--12-120-75-75-c-80-iso646.1991-irv
+-schumacher-clean-medium-r-normal--13-130-75-75-c-80-iso8859-1 -schumacher-clean-medium-r-normal--13-130-75-75-c-80-iso646.1991-irv
+-schumacher-clean-medium-r-normal--10-100-75-75-c-80-iso8859-1 -schumacher-clean-medium-r-normal--10-100-75-75-c-80-iso646.1991-irv
+-schumacher-clean-medium-r-normal--16-160-75-75-c-80-iso8859-1 -schumacher-clean-medium-r-normal--16-160-75-75-c-80-iso646.1991-irv
+-schumacher-clean-medium-r-normal--14-140-75-75-c-80-iso8859-1 -schumacher-clean-medium-r-normal--14-140-75-75-c-80-iso646.1991-irv
+-schumacher-clean-medium-r-normal--8-80-75-75-c-80-iso8859-1 -schumacher-clean-medium-r-normal--8-80-75-75-c-80-iso646.1991-irv
+-schumacher-clean-medium-r-normal--15-150-75-75-c-90-iso8859-1 -schumacher-clean-medium-r-normal--15-150-75-75-c-90-iso646.1991-irv
+-schumacher-clean-medium-r-normal--8-80-75-75-c-60-iso8859-1 -schumacher-clean-medium-r-normal--8-80-75-75-c-60-iso646.1991-irv
+-schumacher-clean-medium-r-normal--6-60-75-75-c-50-iso8859-1 -schumacher-clean-medium-r-normal--6-60-75-75-c-50-iso646.1991-irv
+-schumacher-clean-medium-r-normal--8-80-75-75-c-70-iso8859-1 -schumacher-clean-medium-r-normal--8-80-75-75-c-70-iso646.1991-irv
+-schumacher-clean-medium-r-normal--6-60-75-75-c-40-iso8859-1 -schumacher-clean-medium-r-normal--6-60-75-75-c-40-iso646.1991-irv
+-schumacher-clean-medium-r-normal--8-80-75-75-c-50-iso8859-1 -schumacher-clean-medium-r-normal--8-80-75-75-c-50-iso646.1991-irv
+-schumacher-clean-medium-r-normal--6-60-75-75-c-60-iso8859-1 -schumacher-clean-medium-r-normal--6-60-75-75-c-60-iso646.1991-irv
+-schumacher-clean-medium-r-normal--12-120-75-75-c-60-iso8859-1 -schumacher-clean-medium-r-normal--12-120-75-75-c-60-iso646.1991-irv
+-schumacher-clean-medium-r-normal--13-130-75-75-c-60-iso8859-1 -schumacher-clean-medium-r-normal--13-130-75-75-c-60-iso646.1991-irv
+-schumacher-clean-medium-r-normal--10-100-75-75-c-60-iso8859-1 -schumacher-clean-medium-r-normal--10-100-75-75-c-60-iso646.1991-irv
+-schumacher-clean-medium-r-normal--12-120-75-75-c-70-iso8859-1 -schumacher-clean-medium-r-normal--12-120-75-75-c-70-iso646.1991-irv
+-schumacher-clean-medium-r-normal--10-100-75-75-c-70-iso8859-1 -schumacher-clean-medium-r-normal--10-100-75-75-c-70-iso646.1991-irv
+-schumacher-clean-medium-r-normal--14-140-75-75-c-70-iso8859-1 -schumacher-clean-medium-r-normal--14-140-75-75-c-70-iso646.1991-irv
+-schumacher-clean-medium-r-normal--10-100-75-75-c-50-iso8859-1 -schumacher-clean-medium-r-normal--10-100-75-75-c-50-iso646.1991-irv
+-schumacher-clean-bold-r-normal--8-80-75-75-c-80-iso8859-1 -schumacher-clean-bold-r-normal--8-80-75-75-c-80-iso646.1991-irv
+-schumacher-clean-medium-i-normal--8-80-75-75-c-80-iso8859-1 -schumacher-clean-medium-i-normal--8-80-75-75-c-80-iso646.1991-irv
+-schumacher-clean-bold-r-normal--12-120-75-75-c-80-iso8859-1 -schumacher-clean-bold-r-normal--12-120-75-75-c-80-iso646.1991-irv
+-schumacher-clean-bold-r-normal--13-130-75-75-c-80-iso8859-1 -schumacher-clean-bold-r-normal--13-130-75-75-c-80-iso646.1991-irv
+-schumacher-clean-bold-r-normal--10-100-75-75-c-80-iso8859-1 -schumacher-clean-bold-r-normal--10-100-75-75-c-80-iso646.1991-irv
+-schumacher-clean-bold-r-normal--16-160-75-75-c-80-iso8859-1 -schumacher-clean-bold-r-normal--16-160-75-75-c-80-iso646.1991-irv
+-schumacher-clean-bold-r-normal--14-140-75-75-c-80-iso8859-1 -schumacher-clean-bold-r-normal--14-140-75-75-c-80-iso646.1991-irv
+-schumacher-clean-bold-r-normal--15-150-75-75-c-90-iso8859-1 -schumacher-clean-bold-r-normal--15-150-75-75-c-90-iso646.1991-irv
+-schumacher-clean-bold-r-normal--12-120-75-75-c-60-iso8859-1 -schumacher-clean-bold-r-normal--12-120-75-75-c-60-iso646.1991-irv
+-schumacher-clean-bold-r-normal--10-100-75-75-c-60-iso8859-1 -schumacher-clean-bold-r-normal--10-100-75-75-c-60-iso646.1991-irv
+-schumacher-clean-medium-i-normal--12-120-75-75-c-60-iso8859-1 -schumacher-clean-medium-i-normal--12-120-75-75-c-60-iso646.1991-irv
+-sgi-screen-medium-r-normal--10-100-72-72-m-60--ascii -sgi-screen-medium-r-normal--10-100-72-72-m-60-iso8859-1
+-sgi-screen-medium-r-normal--11-110-72-72-m-70--ascii -sgi-screen-medium-r-normal--11-110-72-72-m-70-iso8859-1
+-sgi-screen-medium-r-normal--12-120-72-72-m-70--ascii -sgi-screen-medium-r-normal--12-120-72-72-m-70-iso8859-1
+-sgi-screen-medium-r-normal--13-130-72-72-m-70--ascii -sgi-screen-medium-r-normal--13-130-72-72-m-70-iso8859-1
+-sgi-screen-medium-r-normal--14-140-72-72-m-70--ascii -sgi-screen-medium-r-normal--14-140-72-72-m-70-iso8859-1
+-sgi-screen-medium-r-normal--15-150-72-72-m-80--ascii -sgi-screen-medium-r-normal--15-150-72-72-m-80-iso8859-1
+-sgi-screen-medium-r-normal--16-160-72-72-m-80--ascii -sgi-screen-medium-r-normal--16-160-72-72-m-80-iso8859-1
+-sgi-screen-medium-r-normal--18-180-72-72-m-90--ascii -sgi-screen-medium-r-normal--18-180-72-72-m-90-iso8859-1
+-sgi-screen-medium-r-normal--7-70-72-72-m-60--ascii -sgi-screen-medium-r-normal--7-70-72-72-m-60-iso8859-1
+-sgi-screen-medium-r-normal--8-80-72-72-m-60--ascii -sgi-screen-medium-r-normal--8-80-72-72-m-60-iso8859-1
+-sgi-screen-medium-r-normal--9-90-72-72-m-60--ascii -sgi-screen-medium-r-normal--9-90-72-72-m-60-iso8859-1
+-sgi-screen-bold-r-normal--10-100-72-72-m-70--ascii -sgi-screen-bold-r-normal--10-100-72-72-m-70-iso8859-1
+-sgi-screen-bold-r-normal--11-110-72-72-m-80--ascii -sgi-screen-bold-r-normal--11-110-72-72-m-80-iso8859-1
+-sgi-screen-bold-r-normal--12-120-72-72-m-80--ascii -sgi-screen-bold-r-normal--12-120-72-72-m-80-iso8859-1
+-sgi-screen-bold-r-normal--13-130-72-72-m-80--ascii -sgi-screen-bold-r-normal--13-130-72-72-m-80-iso8859-1
+-sgi-screen-bold-r-normal--14-140-72-72-m-80--ascii -sgi-screen-bold-r-normal--14-140-72-72-m-80-iso8859-1
+-sgi-screen-bold-r-normal--15-150-72-72-m-90--ascii -sgi-screen-bold-r-normal--15-150-72-72-m-90-iso8859-1
+-sgi-screen-bold-r-normal--16-160-72-72-m-90--ascii -sgi-screen-bold-r-normal--16-160-72-72-m-90-iso8859-1
+-sgi-screen-bold-r-normal--18-180-72-72-m-100--ascii -sgi-screen-bold-r-normal--18-180-72-72-m-100-iso8859-1
+-sgi-screen-bold-r-normal--7-70-72-72-m-70--ascii -sgi-screen-bold-r-normal--7-70-72-72-m-70-iso8859-1
+-sgi-screen-bold-r-normal--8-80-72-72-m-70--ascii -sgi-screen-bold-r-normal--8-80-72-72-m-70-iso8859-1
+-sgi-screen-bold-r-normal--9-90-72-72-m-70--ascii -sgi-screen-bold-r-normal--9-90-72-72-m-70-iso8859-1
+--iris-medium-r-normal--10-100-72-72-m-60--ascii --iris-medium-r-normal--10-100-72-72-m-60-iso8859-1
+--iris-medium-r-normal--12-120-72-72-m-80--ascii --iris-medium-r-normal--12-120-72-72-m-80-iso8859-1
+--iris-medium-r-normal--13-130-72-72-m-90--ascii --iris-medium-r-normal--13-130-72-72-m-90-iso8859-1
+
+screen7 -*-screen-medium-r-normal--*-70-*-*-m-*-iso8859-1
+screen8 -*-screen-medium-r-normal--*-80-*-*-m-*-iso8859-1
+screen9 -*-screen-medium-r-normal--*-90-*-*-m-*-iso8859-1
+screen10 -*-screen-medium-r-normal--*-100-*-*-m-*-iso8859-1
+screen11 -*-screen-medium-r-normal--*-110-*-*-m-*-iso8859-1
+screen12 -*-screen-medium-r-normal--*-120-*-*-m-*-iso8859-1
+screen13 -*-screen-medium-r-normal--*-130-*-*-m-*-iso8859-1
+screen14 -*-screen-medium-r-normal--*-140-*-*-m-*-iso8859-1
+screen15 -*-screen-medium-r-normal--*-150-*-*-m-*-iso8859-1
+screen16 -*-screen-medium-r-normal--*-160-*-*-m-*-iso8859-1
+screen18 -*-screen-medium-r-normal--*-180-*-*-m-*-iso8859-1
+screen-bold7 -*-screen-bold-r-normal--*-70-*-*-m-*-iso8859-1
+screen-bold8 -*-screen-bold-r-normal--*-80-*-*-m-*-iso8859-1
+screen-bold9 -*-screen-bold-r-normal--*-90-*-*-m-*-iso8859-1
+screen-bold10 -*-screen-bold-r-normal--*-100-*-*-m-*-iso8859-1
+screen-bold11 -*-screen-bold-r-normal--*-110-*-*-m-*-iso8859-1
+screen-bold12 -*-screen-bold-r-normal--*-120-*-*-m-*-iso8859-1
+screen-bold13 -*-screen-bold-r-normal--*-130-*-*-m-*-iso8859-1
+screen-bold14 -*-screen-bold-r-normal--*-140-*-*-m-*-iso8859-1
+screen-bold15 -*-screen-bold-r-normal--*-150-*-*-m-*-iso8859-1
+screen-bold16 -*-screen-bold-r-normal--*-160-*-*-m-*-iso8859-1
+screen-bold18 -*-screen-bold-r-normal--*-180-*-*-m-*-iso8859-1
+
+international15 -*-international-medium-r-normal--*-150-*-*-m-*-iso8859-1
+iris10 -*-iris-medium-r-normal--*-100-*-*-m-*-iso8859-1
+iris12 -*-iris-medium-r-normal--*-120-*-*-m-*-iso8859-1
+iris13 -*-iris-medium-r-normal--*-130-*-*-m-*-iso8859-1
+type13 -*-type-medium-r-normal--*-130-*-*-m-*-iso8859-1
+
+haebfix15  -sgi-haebfix-medium-r-normal--15-150-72-72-m-90-iso8859-1
+a16      -sony-fixed-medium-r-normal--16-120-100-100-c-80-iso8859-1
+a24      -sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1

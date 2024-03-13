@@ -1,0 +1,264 @@
+# ps2xlfd_map $Revision: 1.35 $
+#
+# This file is a mapping of PostScript and Font Manager (FM) font names to 
+# templates for 14-part (XLFD) X font names.  
+#
+# The format of each line is:
+#
+# <fontname> <whitespace> <XLFDfontname> <newline>
+#
+# The XLFDfontname is an XLFD template.  The values of:
+#
+#     PIXEL_SIZE
+#     POINT_SIZE
+#     RESOLUTION_X
+#     RESOLUTION_Y
+#
+# are set to 0.
+#
+# This file is used by the IRIS Font Manager and the X Window System.
+#
+# Along with this file, any other ps2xlfd.* files in this directory will
+# be searched.  This allows you to create your own ps2xlfd_map.local in
+# this directory for your own local mappings.
+#
+ACaslon-Italic -adobe-adobe caslon-medium-i-normal--0-0-0-0-p-0-iso8859-1
+ACaslon-Regular -adobe-adobe caslon-medium-r-normal--0-0-0-0-p-0-iso8859-1
+ACaslon-Semibold -adobe-adobe caslon-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+ACaslon-SemiboldItalic -adobe-adobe caslon-semibold-i-normal--0-0-0-0-p-0-iso8859-1
+AGaramond-Bold -adobe-adobe garamond-bold-r-normal--0-0-0-0-p-0-iso8859-1
+AGaramond-BoldOsF -adobe-adobe garamond-bold-r-osf--0-0-0-0-p-0-iso8859-1
+AGaramond-BoldItalic -adobe-adobe garamond-bold-i-normal--0-0-0-0-p-0-iso8859-1
+AGaramond-BoldItalicOsF -adobe-adobe garamond-bold-i-osf--0-0-0-0-p-0-iso8859-1
+AGaramond-Italic -adobe-adobe garamond-medium-i-normal--0-0-0-0-p-0-iso8859-1
+AGaramond-ItalicOsF -adobe-adobe garamond-medium-i-osf--0-0-0-0-p-0-iso8859-1
+AGaramond-Regular -adobe-adobe garamond-medium-r-normal--0-0-0-0-p-0-iso8859-1
+AGaramond-RegularSC -adobe-adobe garamond-medium-r-sc--0-0-0-0-p-0-iso8859-1
+AGaramond-Semibold -adobe-adobe garamond-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+AGaramond-SemiboldItalic -adobe-adobe garamond-semibold-i-normal--0-0-0-0-p-0-iso8859-1
+AGaramond-SemiboldItalicOsF -adobe-adobe garamond-semibold-i-osf--0-0-0-0-p-0-iso8859-1
+AGaramond-SemiboldSC -adobe-adobe garamond-semibold-r-sc--0-0-0-0-p-0-iso8859-1
+AGaramond-Titling -adobe-adobe garamond-medium-r-titling--0-0-0-0-p-0-iso8859-1
+AGaramondAlt-Italic -adobe-adobe garamond-medium-i-alternate--0-0-0-0-p-0-adobe-fontspecific
+AGaramondAlt-Regular -adobe-adobe garamond-medium-r-alternate--0-0-0-0-p-0-adobe-fontspecific
+AGaramondExp-Bold -adobe-adobe garamond-bold-r-expert--0-0-0-0-p-0-adobe-fontspecific
+AGaramondExp-BoldItalic -adobe-adobe garamond-bold-i-expert--0-0-0-0-p-0-adobe-fontspecific
+AGaramondExp-Italic -adobe-adobe garamond-medium-i-expert--0-0-0-0-p-0-adobe-fontspecific
+AGaramondExp-Regular -adobe-adobe garamond-medium-r-expert--0-0-0-0-p-0-adobe-fontspecific
+AGaramondExp-Semibold -adobe-adobe garamond-semibold-r-expert--0-0-0-0-p-0-adobe-fontspecific
+AGaramondExp-SemiboldItalic -adobe-adobe garamond-semibold-i-expert--0-0-0-0-p-0-adobe-fontspecific
+Amie -sgi-amie-medium-r-normal--0-0-0-0-p-0--ascii
+AvantGarde-Book -adobe-itc avant garde gothic-book-r-normal--0-0-0-0-p-0-iso8859-1
+AvantGarde-BookOblique -adobe-itc avant garde gothic-book-o-normal--0-0-0-0-p-0-iso8859-1
+AvantGarde-Demi -adobe-itc avant garde gothic-demi-r-normal--0-0-0-0-p-0-iso8859-1
+AvantGarde-DemiOblique -adobe-itc avant garde gothic-demi-o-normal--0-0-0-0-p-0-iso8859-1
+Birch -adobe-birch-medium-r-normal--0-0-0-0-p-0-iso8859-1
+BitstreamDECtechTerminal -bitstream-terminal-medium-r-normal--0-0-0-0-c-0-dec-dectech
+BitstreamDECtechTerminal-Bold -bitstream-terminal-bold-r-normal--0-0-0-0-c-0-dec-dectech
+Blackoak -adobe-blackoak-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Bookman-Demi -adobe-itc bookman-demi-r-normal--0-0-0-0-p-0-iso8859-1
+Bookman-DemiItalic -adobe-itc bookman-demi-i-normal--0-0-0-0-p-0-iso8859-1
+Bookman-Light -adobe-itc bookman-light-r-normal--0-0-0-0-p-0-iso8859-1
+Bookman-LightItalic -adobe-itc bookman-light-i-normal--0-0-0-0-p-0-iso8859-1
+Carta -adobe-carta-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
+Cave -sgi-cave-medium-r-normal--0-0-0-0-p-0--ascii
+CharterBT-Black -bitstream-charter-black-r-normal--0-0-0-0-p-0-iso8859-1
+CharterBT-BlackItalic -bitstream-charter-black-i-normal--0-0-0-0-p-0-iso8859-1
+CharterBT-Bold -bitstream-charter-bold-r-normal--0-0-0-0-p-0-iso8859-1
+CharterBT-BoldItalic -bitstream-charter-bold-i-normal--0-0-0-0-p-0-iso8859-1
+CharterBT-Italic -bitstream-charter-medium-i-normal--0-0-0-0-p-0-iso8859-1
+CharterBT-Roman -bitstream-charter-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Clean -schumacher-clean-medium-r-normal--0-0-0-0-c-0-iso646.1991-irv
+Clean-Italic -schumacher-clean-medium-i-normal--0-0-0-0-c-0-iso646.1991-irv
+Clean-Bold -schumacher-clean-bold-r-normal--0-0-0-0-c-0-iso646.1991-irv
+CooperBlack -adobe-cooper-black-r-normal--0-0-0-0-p-0-iso8859-1
+CooperBlack-Italic -adobe-cooper-black-i-normal--0-0-0-0-p-0-iso8859-1
+Copal-Decorated -adobe-copal decorated-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Copal-Outline -adobe-copal outline-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Copal-Solid -adobe-copal solid-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Courier -adobe-courier-medium-r-normal--0-0-0-0-m-0-iso8859-1
+Courier-Bold -adobe-courier-bold-r-normal--0-0-0-0-m-0-iso8859-1
+Courier-BoldOblique -adobe-courier-bold-o-normal--0-0-0-0-m-0-iso8859-1
+Courier-Oblique -adobe-courier-medium-o-normal--0-0-0-0-m-0-iso8859-1
+Curl-Roman -sgi-curl-medium-r-normal--0-0-0-0-p-0--ascii
+DECTerminal -dec-terminal-medium-r-normal--0-0-0-0-c-0-iso8859-1
+DECTerminal-Bold -dec-terminal-bold-r-normal--0-0-0-0-c-0-iso8859-1
+DECtechTerminal -dec-terminal-medium-r-normal--0-0-0-0-c-0-dec-dectech
+DECtechTerminal-Bold -dec-terminal-bold-r-normal--0-0-0-0-c-0-dec-dectech
+DJB -sgi-djb-medium-r-normal--0-0-0-0-p-0--ascii
+EBTFixed -ebt-ebtfixed-medium-r-normal--0-0-0-0-c-0-iso8859-1
+Fixed -misc-fixed-medium-r-normal--0-0-0-0-c-0-iso8859-1
+FixedEuro -misc-fixed-medium-r-normal--0-0-0-0-c-0-fcd8859-15
+FixedEuro-Bold -misc-fixed-bold-r-normal--0-0-0-0-c-0-fcd8859-15
+FixedISO646 -misc-fixed-medium-r-normal--0-0-0-0-c-0-iso646.1991-irv
+Fixed-Bold -misc-fixed-bold-r-normal--0-0-0-0-c-0-iso8859-1
+Fixed-SemiCondensed -misc-fixed-medium-r-semicondensed--0-0-0-0-c-0-iso8859-1
+FixedISO646-SemiCondensed -misc-fixed-medium-r-semicondensed--0-0-0-0-c-0-iso646.1991-irv
+Fixed-SemiCondensed-Bold -misc-fixed-bold-r-semicondensed--0-0-0-0-c-0-iso8859-1
+Formata-Italic -adobe-formata-light-i-normal--0-0-0-0-p-0-iso8859-1
+Formata-Medium -adobe-formata-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Formata-MediumItalic -adobe-formata-medium-i-normal--0-0-0-0-p-0-iso8859-1
+Formata-Regular -adobe-formata-light-r-normal--0-0-0-0-p-0-iso8859-1
+Haeberli -sgi-haeberli-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Haebfix -sgi-haebfix-medium-r-normal--0-0-0-0-m-0-iso8859-1
+Hebrew -misc-fixed-medium-r-normal--0-0-0-0-c-0-iso8859-8
+Hebrew-SemiCondensed -misc-fixed-medium-r-semicondensed--0-0-0-0-c-0-iso8859-8
+Helvetica -adobe-helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Helvetica-Bold -adobe-helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-1
+Helvetica-BoldOblique -adobe-helvetica-bold-o-normal--0-0-0-0-p-0-iso8859-1
+Helvetica-Narrow -adobe-helvetica-medium-r-narrow--0-0-0-0-p-0-iso8859-1
+Helvetica-Narrow-Bold -adobe-helvetica-bold-r-narrow--0-0-0-0-p-0-iso8859-1
+Helvetica-Narrow-BoldOblique -adobe-helvetica-bold-o-narrow--0-0-0-0-p-0-iso8859-1
+Helvetica-Narrow-Oblique -adobe-helvetica-medium-o-narrow--0-0-0-0-p-0-iso8859-1
+Helvetica-Oblique -adobe-helvetica-medium-o-normal--0-0-0-0-p-0-iso8859-1
+Honesty -sgi-honesty-medium-r-normal--0-0-0-0-p-0--ascii
+Inja -sgi-inja-medium-r-normal--0-0-0-0-p-0--ascii
+International --international-medium-r-normal--0-0-0-0-m-0-iso8859-1
+Iris --iris-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Laura -sgi-laura-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Lithos-Black -adobe-lithos-black-r-normal--0-0-0-0-p-0-iso8859-1
+Lithos-Regular -adobe-lithos-medium-r-normal--0-0-0-0-p-0-iso8859-1
+LucidaBright -b&h-lucidabright-medium-r-normal--0-0-0-0-p-0-iso8859-1
+LucidaBright-DemiBold -b&h-lucidabright-demibold-r-normal--0-0-0-0-p-0-iso8859-1
+LucidaBright-DemiBoldItalic -b&h-lucidabright-demibold-i-normal--0-0-0-0-p-0-iso8859-1
+LucidaBright-Italic -b&h-lucidabright-medium-i-normal--0-0-0-0-p-0-iso8859-1
+LucidaSans-Roman -b&h-lucida-medium-r-normal-sans-0-0-0-0-p-0-iso8859-1
+LucidaSans-Bold -b&h-lucida-bold-r-normal-sans-0-0-0-0-p-0-iso8859-1
+LucidaSans-BoldItalic -b&h-lucida-bold-i-normal-sans-0-0-0-0-p-0-iso8859-1
+LucidaSans-Italic -b&h-lucida-medium-i-normal-sans-0-0-0-0-p-0-iso8859-1
+LucidaSansTypewriter -b&h-lucidatypewriter-medium-r-normal-sans-0-0-0-0-m-0-iso8859-1
+LucidaSansTypewriter-Bold -b&h-lucidatypewriter-bold-r-normal-sans-0-0-0-0-m-0-iso8859-1
+Madrone -adobe-madrone-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Messenger -sgi-messenger-medium-r-normal--0-0-0-0-p-0--ascii
+Minion-Bold -adobe-minion-bold-r-normal--0-0-0-0-p-0-iso8859-1
+Minion-BoldItalic -adobe-minion-bold-i-normal--0-0-0-0-p-0-iso8859-1
+Minion-Italic -adobe-minion-medium-i-normal--0-0-0-0-p-0-iso8859-1
+Minion-Regular -adobe-minion-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Minion-Semibold -adobe-minion-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+Minion-SemiboldItalic -adobe-minion-semibold-i-normal--0-0-0-0-p-0-iso8859-1
+NewCenturySchlbk-Bold -adobe-new century schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-1
+NewCenturySchlbk-BoldItalic -adobe-new century schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-1
+NewCenturySchlbk-Italic -adobe-new century schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-1
+NewCenturySchlbk-Roman -adobe-new century schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Nil -misc-nil-medium-r-normal--0-0-0-0-c-0-misc-fontspecific
+OpenLookCursor -sun-open look cursor-----0-0-0-0-p-0-sunolcursor-1
+OpenLookGlyph -sun-open look glyph-----0-0-0-0-p-0-sunolglyph-1
+Palatino-Bold -adobe-palatino-bold-r-normal--0-0-0-0-p-0-iso8859-1
+Palatino-BoldItalic -adobe-palatino-bold-i-normal--0-0-0-0-p-0-iso8859-1
+Palatino-Italic -adobe-palatino-medium-i-normal--0-0-0-0-p-0-iso8859-1
+Palatino-Roman -adobe-palatino-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Poplar -adobe-poplar-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Present -adobe-present-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Rock -sgi-rock-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Screen -sgi-screen-medium-r-normal--0-0-0-0-m-0-iso8859-1
+Screen-Bold -sgi-screen-bold-r-normal--0-0-0-0-m-0-iso8859-1
+SGITerminal-Bold -sgi-terminal-bold-r-normal--0-0-0-0-c-0-iso8859-1
+Sony-Fixed -sony-fixed-medium-r-normal--0-0-0-0-c-0-iso8859-1
+Sorority -sgi-sorority-medium-r-normal--0-0-0-0-p-0--ascii
+Space --space-medium-r-normal--0-0-0-0-m-0-sgi-fontspecific
+Stencil -adobe-stencil-medium-r-normal--0-0-0-0-p-0-iso8859-1
+StoneSans -adobe-itc stone-medium-r-normal-sans-0-0-0-0-p-0-iso8859-1
+StoneSans-Italic -adobe-itc stone-medium-i-normal-sans-0-0-0-0-p-0-iso8859-1
+StoneSans-Semibold -adobe-itc stone-semibold-r-normal-sans-0-0-0-0-p-0-iso8859-1
+StoneSans-SemiboldItalic -adobe-itc stone-semibold-i-normal-sans-0-0-0-0-p-0-iso8859-1
+StoneSerif -adobe-itc stone-medium-r-normal-serif-0-0-0-0-p-0-iso8859-1
+StoneSerif-Italic -adobe-itc stone-medium-i-normal-serif-0-0-0-0-p-0-iso8859-1
+StoneSerif-Semibold -adobe-itc stone-semibold-r-normal-serif-0-0-0-0-p-0-iso8859-1
+StoneSerif-SemiboldItalic -adobe-itc stone-semibold-i-normal-serif-0-0-0-0-p-0-iso8859-1
+Stroke-Bold -sgi-stroke-bold-r-normal--0-0-0-0-p-0--ascii
+Stroke-Roman -sgi-stroke-medium-r-normal--0-0-0-0-p-0--ascii
+Swiss721-Bold--Bitstream-Unicode-0 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-bitstream.unicode-0
+Swiss721-Bold--ISO10646-1-MES -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso10646.mes-1
+Swiss721-Bold--ISO8859-1 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-1
+Swiss721-Bold--ISO8859-10 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-10
+Swiss721-Bold--ISO8859-10646-MES -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859.10646-mes
+Swiss721-Bold--ISO8859-15 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-15
+Swiss721-Bold--ISO8859-2 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-2
+Swiss721-Bold--ISO8859-3 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-3
+Swiss721-Bold--ISO8859-4 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-4
+Swiss721-Bold--ISO8859-5 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-5
+Swiss721-Bold--ISO8859-6 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-6
+Swiss721-Bold--ISO8859-7 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-7
+Swiss721-Bold--ISO8859-8 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-8
+Swiss721-Bold--ISO8859-9 -bitstream-swiss721-bold-r-normal--0-0-0-0-p-0-iso8859-9
+Swiss721-BoldItalic--Bitstream-Unicode-0 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-bitstream.unicode-0
+Swiss721-BoldItalic--ISO10646-1-MES -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso10646.mes-1
+Swiss721-BoldItalic--ISO8859-1 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-1
+Swiss721-BoldItalic--ISO8859-10 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-10
+Swiss721-BoldItalic--ISO8859-10646-MES -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859.10646-mes
+Swiss721-BoldItalic--ISO8859-15 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-15
+Swiss721-BoldItalic--ISO8859-2 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-2
+Swiss721-BoldItalic--ISO8859-3 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-3
+Swiss721-BoldItalic--ISO8859-4 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-4
+Swiss721-BoldItalic--ISO8859-5 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-5
+Swiss721-BoldItalic--ISO8859-6 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-6
+Swiss721-BoldItalic--ISO8859-7 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-7
+Swiss721-BoldItalic--ISO8859-8 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-8
+Swiss721-BoldItalic--ISO8859-9 -bitstream-swiss721-bold-i-normal--0-0-0-0-p-0-iso8859-9
+Swiss721-Italic--Bitstream-Unicode-0 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-bitstream.unicode-0
+Swiss721-Italic--ISO10646-1-MES -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso10646.mes-1
+Swiss721-Italic--ISO8859-1 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-1
+Swiss721-Italic--ISO8859-10 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-10
+Swiss721-Italic--ISO8859-10646-MES -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859.10646-mes
+Swiss721-Italic--ISO8859-15 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-15
+Swiss721-Italic--ISO8859-2 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-2
+Swiss721-Italic--ISO8859-3 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-3
+Swiss721-Italic--ISO8859-4 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-4
+Swiss721-Italic--ISO8859-5 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-5
+Swiss721-Italic--ISO8859-6 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-6
+Swiss721-Italic--ISO8859-7 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-7
+Swiss721-Italic--ISO8859-8 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-8
+Swiss721-Italic--ISO8859-9 -bitstream-swiss721-medium-i-normal--0-0-0-0-p-0-iso8859-9
+Swiss721-Roman--Bitstream-Unicode-0 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-bitstream.unicode-0
+Swiss721-Roman--ISO10646-1-MES -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso10646.mes-1
+Swiss721-Roman--ISO8859-1 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Swiss721-Roman--ISO8859-10 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-10
+Swiss721-Roman--ISO8859-10646-MES -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859.10646-mes
+Swiss721-Roman--ISO8859-15 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-15
+Swiss721-Roman--ISO8859-2 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-2
+Swiss721-Roman--ISO8859-3 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-3
+Swiss721-Roman--ISO8859-4 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-4
+Swiss721-Roman--ISO8859-5 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-5
+Swiss721-Roman--ISO8859-6 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-6
+Swiss721-Roman--ISO8859-7 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-7
+Swiss721-Roman--ISO8859-8 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-8
+Swiss721-Roman--ISO8859-9 -bitstream-swiss721-medium-r-normal--0-0-0-0-p-0-iso8859-9
+Symbol -adobe-symbol-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
+Tekton -adobe-tekton-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Tekton-Bold -adobe-tekton-bold-r-normal--0-0-0-0-p-0-iso8859-1
+Tekton-BoldOblique -adobe-tekton-bold-o-normal--0-0-0-0-p-0-iso8859-1
+Tekton-Oblique -adobe-tekton-medium-o-normal--0-0-0-0-p-0-iso8859-1
+Terminal -bitstream-terminal-medium-r-normal--0-0-0-0-c-0-iso8859-1
+Terminal-Bold -bitstream-terminal-bold-r-normal--0-0-0-0-c-0-iso8859-1
+Times-Bold -adobe-times-bold-r-normal--0-0-0-0-p-0-iso8859-1
+Times-BoldItalic -adobe-times-bold-i-normal--0-0-0-0-p-0-iso8859-1
+Tymes-Elfin -sgi-tymes-medium-r-normal-elfin-0-0-0-0-p-0--ascii
+Times-Italic -adobe-times-medium-i-normal--0-0-0-0-p-0-iso8859-1
+Times-Roman -adobe-times-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Type --type-medium-r-normal--0-0-0-0-m-0-iso8859-1
+Utopia-Bold -adobe-utopia-bold-r-normal--0-0-0-0-p-0-iso8859-1
+Utopia-BoldItalic -adobe-utopia-bold-i-normal--0-0-0-0-p-0-iso8859-1
+Utopia-Italic -adobe-utopia-medium-i-normal--0-0-0-0-p-0-iso8859-1
+Utopia-Regular -adobe-utopia-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Univers -adobe-univers-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Univers-Black -adobe-univers-black-r-normal--0-0-0-0-p-0-iso8859-1
+Univers-BlackOblique -adobe-univers-black-o-normal--0-0-0-0-p-0-iso8859-1
+Univers-Bold -adobe-univers-bold-r-normal--0-0-0-0-p-0-iso8859-1
+Univers-BoldOblique -adobe-univers-bold-o-normal--0-0-0-0-p-0-iso8859-1
+Univers-Condensed -adobe-univers-medium-r-condensed--0-0-0-0-p-0-iso8859-1
+Univers-CondensedBold -adobe-univers-bold-r-condensed--0-0-0-0-p-0-iso8859-1
+Univers-CondensedBoldOblique -adobe-univers-bold-o-condensed--0-0-0-0-p-0-iso8859-1
+Univers-CondensedLight -adobe-univers-light-r-condensed--0-0-0-0-p-0-iso8859-1
+Univers-CondensedLightOblique -adobe-univers-light-o-condensed--0-0-0-0-p-0-iso8859-1
+Univers-CondensedOblique -adobe-univers-medium-o-condensed--0-0-0-0-p-0-iso8859-1
+Univers-Light -adobe-univers-light-r-normal--0-0-0-0-p-0-iso8859-1
+Univers-LightOblique -adobe-univers-light-o-normal--0-0-0-0-p-0-iso8859-1
+Univers-Oblique -adobe-univers-medium-o-normal--0-0-0-0-p-0-iso8859-1
+VAGRounded-Black -adobe-vagrounded-black-r-normal--0-0-0-0-p-0-iso8859-1
+VAGRounded-Bold -adobe-vagrounded-bold-r-normal--0-0-0-0-p-0-iso8859-1
+VAGRounded-Light -adobe-vagrounded-light-r-normal--0-0-0-0-p-0-iso8859-1
+VAGRounded-Thin -adobe-vagrounded-thin-r-normal--0-0-0-0-p-0-iso8859-1
+Willow -adobe-willow-medium-r-normal--0-0-0-0-p-0-iso8859-1
+WoodtypeOrnaments-Two -adobe-woodtype ornaments-medium-r-normal-two-0-0-0-0-p-0-adobe-fontspecific
+ZapfChancery-MediumItalic -adobe-itc zapf chancery-medium-i-normal--0-0-0-0-p-0-iso8859-1
+ZapfDingbats -adobe-itc zapf dingbats-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific

@@ -1,0 +1,115 @@
+%!PS-Adobe-3.0 Resource-CMap
+%%DocumentNeededResources: procset (CIDInit)
+%%IncludeResource: procset (CIDInit)
+%%BeginResource: CMap (ISO8859-4)
+%%Title: (ISO8859-4 Bitstream Unicode 0)
+%%Version: 1
+%%Copyright: (c) Copyright 1995-1998 as an unpublished work by Bitstream Inc. All rights reserved. Confidential.
+%%EndComments
+
+/CIDInit /ProcSet findresource begin
+
+12 dict begin
+
+begincmap
+
+/CIDSystemInfo 3 dict dup begin
+	/Registry (Bitstream) def
+	/Ordering (Unicode) def
+	/Supplement 0 def
+end def
+
+/CMapName /ISO8859-4 def
+/CMapVersion 1 def
+/CMapType 1 def
+
+/UIDOffset 550 def
+/XUID [110 10 10005] def
+
+/WMode 0 def
+
+1 begincodespacerange
+  <20> <ff>
+endcodespacerange
+
+71 begincidrange
+  <20> <7e> 1
+  <a0> <a0> 96
+  <a1> <a1> 196
+  <a2> <a2> 248
+  <a3> <a3> 278
+  <a4> <a4> 100
+  <a5> <a5> 232
+  <a6> <a6> 251
+  <a7> <a8> 103
+  <a9> <a9> 288
+  <aa> <aa> 210
+  <ab> <ab> 226
+  <ac> <ac> 294
+  <ad> <ad> 109
+  <ae> <ae> 317
+  <af> <b0> 111
+  <b1> <b1> 197
+  <b2> <b2> 356
+  <b3> <b3> 279
+  <b4> <b4> 116
+  <b5> <b5> 233
+  <b6> <b6> 252
+  <b7> <b7> 351
+  <b8> <b8> 120
+  <b9> <b9> 289
+  <ba> <ba> 211
+  <bb> <bb> 227
+  <bc> <bc> 295
+  <bd> <bd> 266
+  <be> <be> 318
+  <bf> <bf> 267
+  <c0> <c0> 192
+  <c1> <c6> 129
+  <c7> <c7> 238
+  <c8> <c8> 204
+  <c9> <c9> 137
+  <ca> <ca> 216
+  <cb> <cb> 139
+  <cc> <cc> 214
+  <cd> <ce> 141
+  <cf> <cf> 234
+  <d0> <d0> 208
+  <d1> <d1> 261
+  <d2> <d2> 268
+  <d3> <d3> 246
+  <d4> <d8> 148
+  <d9> <d9> 306
+  <da> <dc> 154
+  <dd> <dd> 296
+  <de> <de> 298
+  <df> <df> 159
+  <e0> <e0> 193
+  <e1> <e6> 161
+  <e7> <e7> 239
+  <e8> <e8> 205
+  <e9> <e9> 169
+  <ea> <ea> 217
+  <eb> <eb> 171
+  <ec> <ec> 215
+  <ed> <ee> 173
+  <ef> <ef> 235
+  <f0> <f0> 209
+  <f1> <f1> 262
+  <f2> <f2> 269
+  <f3> <f3> 247
+  <f4> <f8> 180
+  <f9> <f9> 307
+  <fa> <fc> 186
+  <fd> <fd> 297
+  <fe> <fe> 299
+  <ff> <ff> 354
+endcidrange
+
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+
+%%EndResource
+%%EOF

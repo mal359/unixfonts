@@ -1,0 +1,59 @@
+%!PS-Adobe-3.0 Resource-CMap
+%%DocumentNeededResources: procset (CIDInit)
+%%IncludeResource: procset (CIDInit)
+%%BeginResource: CMap (ISO8859-15)
+%%Title: (ISO8859-15 Bitstream Unicode 0)
+%%Version: 1
+%%Copyright: (c) Copyright 1995-1998 as an unpublished work by Bitstream Inc. All rights reserved. Confidential.
+%%EndComments
+
+/CIDInit /ProcSet findresource begin
+
+12 dict begin
+
+begincmap
+
+/CIDSystemInfo 3 dict dup begin
+	/Registry (Bitstream) def
+	/Ordering (Unicode) def
+	/Supplement 0 def
+end def
+
+/CMapName /ISO8859-15 def
+/CMapVersion 1 def
+/CMapType 1 def
+
+/UIDOffset 620 def
+/XUID [110 10 10013] def
+
+/WMode 0 def
+
+1 begincodespacerange
+  <20> <ff>
+endcodespacerange
+
+15 begincidrange
+  <20> <7e> 1
+  <a0> <a3> 96
+  <a4> <a4> 1015
+  <a5> <a5> 101
+  <a6> <a6> 288
+  <a7> <a7> 103
+  <a8> <a8> 289
+  <a9> <b3> 105
+  <b4> <b4> 317
+  <b5> <b7> 117
+  <b8> <b8> 318
+  <b9> <bb> 121
+  <bc> <bd> 274
+  <be> <be> 312
+  <bf> <ff> 127
+endcidrange
+
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+
+%%EndResource
+%%EOF

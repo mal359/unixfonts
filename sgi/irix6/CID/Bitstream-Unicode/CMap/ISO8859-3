@@ -1,0 +1,93 @@
+%!PS-Adobe-3.0 Resource-CMap
+%%DocumentNeededResources: procset (CIDInit)
+%%IncludeResource: procset (CIDInit)
+%%BeginResource: CMap (ISO8859-3)
+%%Title: (ISO8859-3 Bitstream Unicode 0)
+%%Version: 1
+%%Copyright: (c) Copyright 1995-1998 as an unpublished work by Bitstream Inc. All rights reserved. Confidential.
+%%EndComments
+
+/CIDInit /ProcSet findresource begin
+
+12 dict begin
+
+begincmap
+
+/CIDSystemInfo 3 dict dup begin
+	/Registry (Bitstream) def
+	/Ordering (Unicode) def
+	/Supplement 0 def
+end def
+
+/CMapName /ISO8859-3 def
+/CMapVersion 1 def
+/CMapType 1 def
+
+/UIDOffset 540 def
+/XUID [110 10 10004] def
+
+/WMode 0 def
+
+1 begincodespacerange
+  <20> <ff>
+endcodespacerange
+
+49 begincidrange
+  <20> <7e> 1
+  <a0> <a0> 96
+  <a1> <a1> 230
+  <a2> <a2> 353
+  <a3> <a4> 99
+  <a6> <a6> 228
+  <a7> <a8> 103
+  <a9> <a9> 240
+  <aa> <aa> 286
+  <ab> <ab> 222
+  <ac> <ac> 244
+  <ad> <ad> 109
+  <af> <af> 315
+  <b0> <b0> 112
+  <b1> <b1> 231
+  <b2> <b5> 114
+  <b6> <b6> 229
+  <b7> <b8> 119
+  <b9> <b9> 241
+  <ba> <ba> 287
+  <bb> <bb> 223
+  <bc> <bc> 245
+  <bd> <bd> 125
+  <bf> <bf> 316
+  <c0> <c2> 128
+  <c4> <c4> 132
+  <c5> <c5> 202
+  <c6> <c6> 200
+  <c7> <cf> 135
+  <d1> <d4> 145
+  <d5> <d5> 224
+  <d6> <d7> 150
+  <d8> <d8> 220
+  <d9> <dc> 153
+  <dd> <dd> 300
+  <de> <de> 284
+  <df> <e2> 159
+  <e4> <e4> 164
+  <e5> <e5> 203
+  <e6> <e6> 201
+  <e7> <ef> 167
+  <f1> <f4> 177
+  <f5> <f5> 225
+  <f6> <f7> 182
+  <f8> <f8> 221
+  <f9> <fc> 185
+  <fd> <fd> 301
+  <fe> <fe> 285
+  <ff> <ff> 354
+endcidrange
+
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+
+%%EndResource
+%%EOF
