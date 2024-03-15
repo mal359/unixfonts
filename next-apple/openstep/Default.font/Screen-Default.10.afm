@@ -1,0 +1,29 @@
+StartFontMetrics 2.0
+Comment Copyright 1988 NeXT, Inc.
+Comment Created by ScreenAfm from printer afm file
+FontName Screen-Default
+EncodingScheme FontSpecific
+FullName Screen-Default.10
+FamilyName Default
+Weight Medium
+ItalicAngle 0.0
+IsFixedPitch false
+IsScreenFont true
+ScreenFontSize 10
+UnderlinePosition -1
+UnderlineThickness 0
+Version 001.000
+FontBBox 0 0 6 7
+CapHeight 6
+XHeight 0
+Descender 0
+Ascender 6
+StartCharMetrics 6
+C 32 ; WX 5 ; N space ; B 0 0 0 0 ;
+C 33 ; WX 5 ; N Box ; B 0 0 5 7 ;
+C 34 ; WX 5 ; N BoxUp ; B 0 3 5 4 ;
+C 35 ; WX 5 ; N BoxDown ; B 0 0 5 4 ;
+C 36 ; WX 7 ; N Geta ; B 2 1 4 5 ;
+C 37 ; WX 5 ; N BlackBox ; B 0 0 5 7 ;
+EndCharMetrics
+EndFontMetrics

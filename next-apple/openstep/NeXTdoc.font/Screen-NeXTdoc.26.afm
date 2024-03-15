@@ -1,0 +1,28 @@
+StartFontMetrics 2.0
+Comment Copyright 1988 NeXT, Inc.
+Comment Created by ScreenAfm from printer afm file
+FontName Screen-NeXTdoc
+EncodingScheme AdobeStandardEncoding
+FullName Screen-NeXTdoc.26
+FamilyName NeXTdoc
+Weight Medium
+ItalicAngle 0.0
+IsFixedPitch false
+IsScreenFont true
+ScreenFontSize 26
+UnderlinePosition -3
+UnderlineThickness 0
+Version 001.000
+FontBBox 0 -6 23 27
+CapHeight 20
+XHeight 0
+Descender -5
+Ascender 20
+StartCharMetrics 5
+C 32 ; WX 14 ; N space ; B 0 0 0 0 ;
+C 99 ; WX 23 ; N c ; B 0 0 23 21 ;
+C 105 ; WX 23 ; N i ; B 0 0 23 21 ;
+C 109 ; WX 19 ; N m ; B 0 2 16 15 ;
+C 112 ; WX 21 ; N p ; B 0 -6 21 27 ;
+EndCharMetrics
+EndFontMetrics

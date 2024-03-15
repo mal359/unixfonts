@@ -1,0 +1,29 @@
+StartFontMetrics 2.0
+Comment Copyright 1988 NeXT, Inc.
+Comment Created by ScreenAfm from printer afm file
+FontName Screen-Lexi
+EncodingScheme Lexi
+FullName Screen-Lexi.18
+FamilyName Lexi
+Weight Roman
+ItalicAngle 0.0
+IsFixedPitch false
+IsScreenFont true
+ScreenFontSize 18
+UnderlinePosition -1
+UnderlineThickness 0
+Version 001.005
+FontBBox -1 -4 20 18
+CapHeight 11
+XHeight 8
+Descender -3
+Ascender 12
+StartCharMetrics 6
+C 32 ; WX 3 ; N space ; B 0 0 0 0 ;
+C 39 ; WX 4 ; N quoteright ; B 1 7 2 5 ;
+C 44 ; WX 4 ; N comma ; B 1 -3 2 5 ;
+C 101 ; WX 8 ; N e ; B 0 0 7 9 ;
+C 110 ; WX 10 ; N n ; B 0 -4 8 13 ;
+C 117 ; WX 13 ; N u ; B -1 0 13 9 ;
+EndCharMetrics
+EndFontMetrics
