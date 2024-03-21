@@ -1,0 +1,35 @@
+;
+; fontdir config file, Wed Apr 11 15:15:18 2001
+;
+pcs08,.phf,PC Serif,8,,0000-00FF,Nf,8x8,12K
+pcs10,.phf,PC Serif,10,,0000-00FF,Nf,8x10,12K
+pcs12,.phf,PC Serif,12,,0000-00FF,Nf,8x12,13K
+pcs14,.phf,PC Serif,14,,0000-00FF,Nf,8x14,13K
+pcs16,.phf,PC Serif,16,,0000-00FF,Nf,8x16,14K
+pcss08,.phf,PC Sanserif,8,,0000-00FF,Nf,8x8,12K
+pcss10,.phf,PC Sanserif,10,,0000-00FF,Nf,8x10,12K
+pcss12,.phf,PC Sanserif,12,,0000-00FF,Nf,8x11,12K
+pcss14,.phf,PC Sanserif,14,,0000-00FF,Nf,8x14,13K
+pcss16,.phf,PC Sanserif,16,,0000-00FF,Nf,8x16,14K
+pcterm12,.phf,PC Terminal,12,,0000-00FF,Nf,6x12,13K
+pcterm14,.phf,PC Terminal,14,,0000-00FF,Nf,8x14,13K
+pcterm20,.phf,PC Terminal,20,,0000-00FF,Nf,10x19,18K
+phcursor,.phf,Photon Cursor,0,,E900-E921,Np,32x32,3K
+symb08,.phf,Symbol,8,,0020-00FE,Np,10x11,10K
+symb10,.phf,Symbol,10,,0020-00FE,Np,12x14,10K
+symb12,.phf,Symbol,12,,0020-00FE,Np,15x16,10K
+symb14,.phf,Symbol,14,,0020-00FE,Np,17x19,11K
+symb18,.phf,Symbol,18,,0020-00FE,Np,21x24,12K
+symb24,.phf,Symbol,24,,0020-00FE,Np,27x32,14K
+tech14,.phf,Technical,14,,0020-00FE,Nf,9x15,10K
+tech14b,.phf,Technical,14,B,0020-00FE,Nf,9x15,10K
+primasansbtsi,0@tt2002m_.ttf,PrimaSans BT,0,I,0020-F002,MIp,134x129,77K
+primasansbtsbi,0@tt2004m_.ttf,PrimaSans BT,0,BI,0020-F002,MIp,145x129,81K
+primasansmonobtsb,0@tt2011m_.ttf,PrimaSansMono BT,0,B,0020-F002,MIf,60x130,58K
+courier10bts,0@tt0419m_.ttf,Courier10 BT,0,,0020-F002,MIf,60x115,94K
+courier10btsi,0@tt0582m_.ttf,Courier10 BT,0,I,0020-F002,MIf,60x117,113K
+courier10btsb,0@tt0583m_.ttf,Courier10 BT,0,B,0020-F002,MIf,60x120,92K
+courier10btsbi,0@tt0611m_.ttf,Courier10 BT,0,BI,0020-F002,MIf,60x120,120K
+primasansbts,0@tt2001m_.ttf,PrimaSans BT,0,,0020-F002,MIp,145x129,162K
+primasansbtsb,0@tt2003m_.ttf,PrimaSans BT,0,B,0020-F002,MIp,155x130,146K
+primasansmonobts,0@tt2009m_.ttf,PrimaSansMono BT,0,,0020-F002,MIf,60x129,109K
