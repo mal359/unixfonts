@@ -1,0 +1,45 @@
+%!PS-AdobeFont-1.0: Hei-Light-CNS11643-Display 001.001
+% Copyright (c) 1994 Digital Equipment Corporation,
+% DynaLab Taiwan, Inc. All rights reserved.
+currentglobal
+true setglobal
+
+14 dict begin
+/FontInfo 8 dict dup begin
+  /version (001.001) readonly def
+  /FullName (Hei-Light-CNS11643-EUC) readonly def
+  /FamilyName (Hei-Light-CNS11643-EUC) readonly def
+  /Weight (Light) readonly def
+  /ItalicAngle 0 def
+  /isFixedPitch true def
+  /UnderlinePosition -215 def
+  /UnderlineThickness 50 def
+end readonly def
+/FontName /Hei-Light-CNS11643-EUC def
+/FontData (Hei-Light-CNS11643-EUC) def
+/FontType 0 def
+/FontMatrix matrix def
+/FMapType 6 def
+/Encoding [0 1 2] readonly def
+/FDepVector [	/NotDefCompFont		findfont
+                /Hei-Light-CNS11643-P2	findfont
+		/NotDefCompFont		findfont ] def
+/SubsVector <02 0ea200 000100> def 
+/PrefEnc 256 array			% dummy, required by type 4 fonts
+  dup 0 1 255 {/.notdef put dup } for pop
+    16#21 1 16#7E {
+      1 index				% the array
+      exch dup 16 (c  ) dup 4 1 roll	% array 16#21 /c21 put  
+      1 2 getinterval cvrs pop cvn
+      put
+    } for
+    16#A1 1 16#FE {
+      1 index				% the array
+      exch dup 16 (c  ) dup 4 1 roll	% array 16#a1 /cA1 put  
+      1 2 getinterval cvrs pop cvn
+      put
+    } for
+  def
+/WMode 0 def currentdict end dup
+/FontName get exch definefont pop
+setglobal 

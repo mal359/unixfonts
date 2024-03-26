@@ -1,0 +1,361 @@
+%!PS-AdobeFont-1.0: Sung-Light-CNS11643-HV 001.001
+% Copyright (c) 1994 Digital Equipment Corporation,
+% DynaLab Taiwan, Inc. All rights reserved.
+currentglobal
+true setglobal
+
+globaldict /DEC2bDict known not {
+  globaldict begin
+/DEC2bDict 16 dict def DEC2bDict begin
+  /notdefstr <10BF317079CA388FE0> def             % charstring for undefined characters
+
+  /CharString188 189 dict dup begin               % dummy, required by type 4 fonts
+    /.notdef 0 def
+    16#21 1 16#7E {
+      dup                                         % 21 - 7d
+      16 (c  ) dup 4 1 roll 1 2 getinterval cvrs  % convert to (c21)..(c7E)
+      pop cvn                                     % convert to /c21../c7E
+      exch 16#20 sub def                          % /c21 16#01 def , etc
+    } for
+    16#A1 1 16#FE {
+      dup                                         % a1 - fd
+      16 (c  ) dup 4 1 roll 1 2 getinterval cvrs  % convert to (cA1)..(cFE)
+      pop cvn                                     % convert to /cA1../cFE
+      exch 16#40 sub def                          % /cA1 16#61 def , etc
+    } for
+  end def
+
+  %
+  % Build an array [ /.notdef ... /cA1 /cA2 ... /cFE /.notdef ]
+  %
+  /Encoding94 256 array                           % dummy, required by type 4 fonts 
+  dup 0 1 255 {/.notdef put dup } for pop 	  % Initialize the array with /.notdef entries
+    16#A1 1 16#FE {
+      1 index                                     % the array
+      exch dup 16 (c  ) dup 4 1 roll              % array 16#a1 /cA1 put  
+      1 2 getinterval cvrs pop cvn
+      put
+  } for
+  def
+
+  %
+  % Build an array [ /.notdef ... /c21 ... /c7E /.notdef ...
+  %		     /.notdef ... /cA1 ... /cFE /.notdef ]
+  %
+  /Encoding188 256 array                          % dummy, required by type 4 fonts 
+    dup 0 1 255 {/.notdef put dup } for pop 	  % Initialize the array with /.notdef entries
+    16#21 1 16#7E {
+      1 index                                     % the array
+      exch dup 16 (c  ) dup 4 1 roll              % array 16#a1 /cA1 put  
+      1 2 getinterval cvrs pop cvn
+      put
+    } for
+    16#A1 1 16#FE {
+      1 index                                     % the array
+      exch dup 16 (c  ) dup 4 1 roll              % array 16#a1 /cA1 put  
+      1 2 getinterval cvrs pop cvn
+      put
+    } for
+  def
+
+  /CDevProc2b {pop pop pop pop 0 exch -1000 exch 2 div 860 } bind def
+
+  /Subrs2b [ <10bf3170f9> readonly <10bf3170f9> readonly <10bf3170f9> readonly 
+             <10bf3170f9> readonly ] readonly def
+
+  % string Read24Int int
+  % read 3 bytes and convert to an unsigned integer
+  % 
+  /Read24Int {
+        dup 0 get 16 bitshift 1 index 1 get 8 bitshift
+        3 -1 roll 2 get add add
+  } bind def
+
+  /BCDisk {
+    % basefont charcode                 % create a new dictionary called 
+    1 index /FontData get dup length    % /fontname.csdata if first time here
+    7 add string dup 3 1 roll copy pop
+    dup dup length 7 sub 7 getinterval
+    (.csdata) exch copy pop cvn
+    globaldict exch 2 copy known {      % see if it has been defined before ? 
+      get begin                         % yes, set it to default dictionary
+    }{
+      currentglobal true setglobal
+      10 dict                           % no, define the dictionary and
+                                        % insert the csdata stuff
+      dup /csbuf 2000 string put
+      % basefont charcode globaldict /fontname.csdata globalflag dict
+      dup /fid 
+	7 index /FontData get		% assemble the file name
+					% then go to find the csdata file
+	% fontname
+	200 string dup
+	/Font /Category findresource
+	% fontname Originalstring Originalstring
+	begin
+	  2 index 1 index ResourceFileName
+	end
+	% fontname Originalstring Originalstring Filestring
+	length (-csdata) putinterval
+	% fontname Originalstring
+	exch pop
+	% Originalstring - it is the csdata font resource
+        (r) file 
+      put
+      dup /csindex 
+        7 index /FontCSIndex get            % get the font index from root font
+        dup 0 3 getinterval                 % the first 3 bytes are header size
+        DEC2bDict /Read24Int get exec       %   and see if it is = 0
+        0 eq {                              % only occur if charstring index
+                                            % hadn't been read into memory
+          2 index /fid get 1 index
+          { readstring }                    % font may be loaded outside server
+                                            % loop, need privilege to write into it 
+          systemdict /internaldict get 1183615869 exch exec /superexec get exec
+          pop pop                           % so bring it into memory
+        } if
+      put
+      dup /csindex get
+      DEC2bDict /Read24Int get
+      % basefont charcode globaldict /fontname.csdata globalflag dict csindex proc
+      % The header has a format of 
+      % 3-byte MSB first integer header size
+      % 3-byte MSB first integer index size
+      % 3-byte MSB first integer index count
+      % 1-byte unsigned integer first row
+      % 1-byte unsigned integer first column
+      % 1-byte unsigned integer last row
+      % 1-byte unsigned integer last column 
+      % Then followed by file offset array of charstrings 
+      % no. of rows = last_row - first_row + 1
+      % no. of columns = last_column - first_column + 1
+      % no. of elements of offset array = (no. of rows * no. of columns) + 1 
+      % 
+      2 index /header_size 3 index 0 3  getinterval 3 index exec put 
+      2 index /index_size  3 index 3 3  getinterval 3 index exec put 
+      2 index /index_count 3 index 6 3  getinterval 3 index exec put 
+      2 index /first_row   3 index 9    get put
+      2 index /first_col   3 index 10   get put
+      2 index /last_row    3 index 11   get put
+      2 index /last_col    3 index 12   get put
+      2 index /rows        1 index /last_row get 2 index /first_row get sub
+                           1 add put
+      2 index /columns     1 index /last_col get 2 index /first_col get sub
+                           1 add put
+      pop pop
+      % basefont charcode globaldict /fontname.csdata globalflag dict
+      exch setglobal
+      dup 4 1 roll
+      put
+      begin                               % set current dictionary to fontname.csdata
+    } ifelse
+    % basefont, charcode
+      first_col 16#A0 ge {              % if first column has high-bit on
+        dup 16#80 or                    % set the code's high-bit
+      }{
+        dup 16#7F and
+      } ifelse
+ 
+    % check to see if the column position is in range
+    dup last_col le {
+
+    2 index /RowNumber get 16#A1 sub      % calcualte the offset in CharString index
+    columns mul add                       % character position in font
+    first_col   sub			  % subtract from the first column index 
+    3 mul                                 % 3 bytes per entry
+    header_size add                       % skip the header ( 15 bytes at present)
+    % basefont charcode pos_in_row offset_in_charstring_offset_table
+    csindex 1 index 3 getinterval         % 3-byte offset string for this character
+    DEC2bDict /Read24Int get exec
+    csindex 3 -1 roll 3 add 3 getinterval % 3-byte offset string for next character
+    DEC2bDict /Read24Int get exec
+    1 index sub 			  % get the length of charstring description 
+    }{                        % column position not in range
+        0                     % then put a fake charstring length of 0
+    } ifelse
+
+    dup 0 eq {                % length of charstring = 0 ?
+      pop pop
+      DEC2bDict /notdefstr get
+    }{
+      % basefont charcode startoffset length           
+      fid 3 -1 roll setfileposition
+      csbuf 0 3 -1 roll getinterval fid exch 
+      readstring pop
+    } ifelse 
+    % basefont, charcode, Charstring
+    cvx                                     % pass the executable string to CCRun
+    systemdict /internaldict get 1183615869 exch exec /CCRun get exec
+    end                                         % for /fontname.csdata begin
+  } bind def
+
+  /BaseFontTmpl 20 dict dup begin
+    /PaintType 0 def
+    /FontType 4 def
+    /CharStrings CharString188 def
+    /CDevProc DEC2bDict /CDevProc2b get def
+    /FontBBox [0 -140 1000 860] def
+    /FontMatrix [0.001 0 0 0.001 0 0] def
+    /BuildChar
+            DEC2bDict /BCDisk get
+    def
+  end def
+
+  /PrivateTmpl 10 dict dup begin
+    /password 5839 def
+    /BlueValues [] def
+    /StdHW [24] def
+    /StdVW [48] def
+    /ForceBold false def
+    /MinFeature {16, 16} def
+    /LanguageGroup 1 def
+    /RndStmUp false def
+    /Subrs Subrs2b def
+  end def
+
+  % The following procedures are used to create composite and base fonts
+
+  % parameters and return for BuildPrivDict
+  % UID -| dict 
+  % 
+  /BuildPrivDict {
+    DEC2bDict /PrivateTmpl get          % get the template Private dict.
+    dup length dict copy                % make a duplicate copy of it
+    dup /UniqueID 4 -1 roll put         % insert the UID value and return with the new dict
+  } bind def
+
+  % parameters and return for BuildBaseFont
+  % RowNumber CSIndex fontdata Encoding UID fontname -| dict 
+  % 
+  /BuildBaseFont {
+    DEC2bDict /BaseFontTmpl get         % get the template for base font
+    dup length dict copy                % make a duplicate copy of it
+    dup /Encoding 4 -1 roll put         % encoding array
+    dup /FontData 4 -1 roll put         % font data file
+    dup /FontCSIndex 4 -1 roll put      % charstring index
+    dup /RowNumber 4 -1 roll put        % row number
+    dup /FontName 4 index put           % font name
+    dup /UniqueID 3 index put           % get the UID value
+    dup /Private                        % prepare for the definition of Private dict
+    4 -1 roll                           % UID value
+    DEC2bDict /BuildPrivDict get exec   % and build the private dict 
+    put                                 % fontname dict -|
+    definefont
+  } bind def
+
+  % parameters and return for BuildAllBaseFonts
+  % Encoding UID RootFontDict EndRow -| array ( used as FDepVector in composite font )
+  % 
+  /BuildAllBaseFonts {
+    dup 16#9f sub array                 % create the FDepVector array, length = no. of rows+1 
+    dup 0 /NotDefFont findfont put      % first entry in FDepVector is always NotDefFont
+    16#a1 1 4 -1 roll {                 % set up for loop parameters for all rows 
+        % Encoding UID RootFontDict array RowNumber 
+        1 index exch dup 16#A0 sub exch % set up array and index for later put in the font dict
+        % Encoding UID RootFontDict array array index RowNumber
+        %
+        % base font name = RootFontName.rA1
+        4 index /FontData get dup length 4 add string dup 3 1 roll copy pop
+        dup dup length 4 sub 2 getinterval 
+        (.r) exch copy pop 
+        1 index 16 2 index              % the last 2 characters will use cvrs to set the row number 
+        dup length 2 sub 2 getinterval cvrs pop cvn
+        % Encoding UID RootFontDict array array index RowNumber fontname
+        exch dup 7 index add            % UID for this base font
+        % Encoding UID RootFontDict array array index FontName RowNumber baseUID
+        exch                            % set up row number
+        6 index /FontCSIndex get        % set up CSIndex
+        7 index /FontData get           % set up font data file
+        % Encoding UID RootFontDict array array index fontname baseUID rowNumber CSIndex FontData
+        10 index                        % set up encoding array
+        % Encoding UID RootFontDict array array index fontname baseUID CSIndex FontData Encoding
+        DEC2bDict /BuildBaseFont get exec
+        % Encoding UID RootFontDict array array index dict
+        put                             % store the font dict into array        
+    } for
+    4 1 roll pop pop pop        % leave only the array on stack
+  } bind def
+end 
+
+/NotDefFont /Font resourcestatus {
+  pop pop           % NotDefFont exists 
+}{
+  14 dict begin
+    /FontName /NotDefFont def
+    /PaintType 0 def
+    /WMode 0 def
+    /FontType 1 def
+    /FontMatrix [0.001 0 0 0.001 0 0] readonly def
+    /FontBBox [0 -140 1000 860] readonly def
+    /UniqueID 4618999 def
+    /Private 10 dict dup begin
+      /BlueValues [] def
+      /StdHW [24] def
+      /StdVW [48] def
+      /ForceBold false def
+      /LanguageGroup 1 def
+      /RndStemUp false def
+      /lenIV 4 def
+      /MinFeature {16 16} def
+      /password 5839 def
+    end def
+    1 dict dup /.notdef <10BF317079CA388FE0> put /CharStrings exch def
+    256 array 0 1 255 {1 index exch /.notdef put} for /Encoding exch def
+    currentdict 
+  end 
+  dup /FontName get exch definefont pop
+
+  12 dict begin
+    /FontName /NotDefCompFont def
+    /FontType 0 def
+    /FontMatrix matrix def
+    /FMapType 2 def 
+    /Encoding 256 array 0 1 255 { 1 index exch 0 put } for readonly def 
+    /FDepVector 69 array 0 1 68 { 1 index exch /NotDefFont findfont put } for def 
+    /PrefEnc DEC2bDict /Encoding94 get def 
+    /WMode 0 def 
+    currentdict 
+  end 
+  dup /FontName get exch definefont pop 
+} ifelse
+  end
+} if
+ 
+12 dict begin
+/FontInfo 8 dict dup begin
+  /version (001.001) readonly def
+  /FullName (Sung-Light-CNS11643-P2) readonly def
+  /FamilyName (Sung-Light-CNS11643-P2) readonly def
+  /Weight (Light) readonly def
+  /ItalicAngle 0 def
+  /isFixedPitch true def
+  /UnderlinePosition -215 def
+  /UnderlineThickness 50 def
+end readonly def
+/FontName /Sung-Light-CNS11643-P2 def
+  /FontCSIndex 53034 string 0 1 14 { 1 index exch 0 put } for def
+/FontType 0 def
+/FontMatrix matrix def
+/FMapType 5 def
+/Encoding 512 array 0   1 511 { 1 index exch 0 put } for
+                    323 2 509 { 1 index exch dup 2 idiv 160 sub put } for
+                  readonly def
+/FDepVector
+					% Create plane 2 subfont
+    DEC2bDict /Encoding188 get		% Encoding vector for a1 to fe
+    4618939                             % UID-161 for base font row a1
+    % Sung-Light-CNS11643-2-Dict        % root font
+    3 dict dup begin
+        /FontName /Sung-Light-CNS11643-2 def
+        /FontData (Sung-Light-CNS11643-2) def
+        /FontCSIndex 26526 string 0 1 14 { 1 index exch 0 put } for def
+    end
+    16#fe                               % end row
+    DEC2bDict /BuildAllBaseFonts get exec
+    % array1
+  def
+/PrefEnc DEC2bDict /Encoding188 get def
+/WMode 0 def
+currentdict end dup
+/FontName get exch definefont pop
+setglobal 

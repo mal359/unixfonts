@@ -1,0 +1,40 @@
+%!PS-AdobeFont-1.0: Hei-GB2312-80-Display 001.001
+% Copyright (c) 1994 Digital Equipment Corporation,
+% DynaLab Taiwan, Inc. All rights reserved.
+currentglobal
+true setglobal
+
+14 dict begin
+/FontInfo 8 dict dup begin
+  /version (001.001) readonly def
+  /FullName (Hei-GB2312-80) readonly def
+  /FamilyName (Hei-GB2312-80) readonly def
+  /Weight (Medium) readonly def
+  /ItalicAngle 0 def
+  /isFixedPitch true def
+  /UnderlinePosition -215 def
+  /UnderlineThickness 50 def
+end readonly def
+/FontName /Hei-GB2312-80 def
+/FontData (Hei-GB2312-80) def
+/FontType 0 def
+/FontMatrix matrix def
+/FMapType 6 def 
+/Encoding [0 1 2 3] readonly def 
+/FDepVector [   /Times-Roman		findfont         
+                /NotDefCompFont		findfont         
+                /Hei-GB2312-80-HV	findfont         
+                /NotDefCompFont		findfont  ] def
+/SubsVector <00 80 21 5d> def 
+/PrefEnc 256 array			% dummy, required by type 4 fonts
+  dup 0 1 255 {/.notdef put dup } for pop
+    16#A1 1 16#FE {
+      1 index 				% the array
+      exch dup 16 (c  ) dup 4 1 roll	% array 16#a1 /cA1 put
+      1 2 getinterval cvrs pop cvn
+      put
+  } for
+  def
+/WMode 0 def currentdict end dup 
+/FontName get exch definefont pop 
+setglobal

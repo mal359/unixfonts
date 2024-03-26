@@ -1,0 +1,25 @@
+%!PS-AdobeFont-1.0: NotDefCompFont 001.001
+% Copyright (c) 1994 Digital Equipment Corporation,
+% DynaLab Taiwan, Inc. All rights reserved.
+
+12 dict begin
+/FontName /NotDefCompFont def
+/FontType 0 def
+/FontMatrix matrix def
+/FMapType 2 def
+/Encoding 256 array 0 1 255 { 1 index exch 0 put } for readonly def
+/FDepVector 69 array 0 1 68 { 1 index exch /NotDefFont findfont put } for def
+/PrefEnc 256 array  
+dup 0 1 255 {/.notdef put dup } for pop
+    16#A1 1 16#FE {
+      1 index                                     % the array
+      exch dup 16 (c  ) dup 4 1 roll              % array 16#a1 /cA1 put
+     1 2 getinterval cvrs pop cvn
+      put
+} for def 
+/WMode 0 def
+currentdict
+end
+dup /FontName get exch definefont pop
+  
+          

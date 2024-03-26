@@ -1,4 +1,4 @@
-1500
+1526
 UTBI__10_lat9.bdf -adobe-utopia-bold-i-normal--10-100-75-75-p-58-iso8859-15
 UTBI__12_lat9.bdf -adobe-utopia-bold-i-normal--12-120-75-75-p-70-iso8859-15
 UTBI__14_lat9.bdf -adobe-utopia-bold-i-normal--15-140-75-75-p-82-iso8859-15
@@ -749,6 +749,8 @@ courier_latgreek_18.bdf -monotype-courier-regular-r-normal--18-180-75-75-m-79-is
 courier_latgreek_24.bdf -monotype-courier-regular-r-normal--24-240-75-75-m-105-iso8859-7
 courier_latgreek_36.bdf -monotype-courier-regular-r-normal--36-360-75-75-m-162-iso8859-7
 courier_latgreek_8.bdf -monotype-courier-regular-r-normal--8-80-75-75-m-38-iso8859-7
+cyr16-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--16-160-72-72-c-80-iso8859-5
+cyr24-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--24-240-72-72-c-120-iso8859-5
 david10.bdf -dec-david-medium-r-normal--10-100-75-75-p-54-iso8859-8
 david12.bdf -dec-david-medium-r-normal--12-120-75-75-p-64-iso8859-8
 david14.bdf -dec-david-medium-r-normal--14-140-75-75-p-74-iso8859-8
@@ -822,6 +824,10 @@ gam_oblique18.bdf -dec-gam-medium-o-normal--18-180-75-75-m-110-iso8859-8
 gam_oblique24.bdf -dec-gam-medium-o-normal--24-240-75-75-m-150-iso8859-8
 gam_oblique8.bdf -dec-gam-medium-o-normal--8-80-75-75-m-50-iso8859-8
 gb2312_14.bdf -huatian-heiti-medium-r-normal--14-140-72-72-p-120-gb2312.1980-1
+grk16-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--16-160-72-72-c-80-iso8859-7
+grk24-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--24-240-72-72-c-120-iso8859-7
+heb16-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--16-160-72-72-c-80-iso8859-8
+heb24-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--24-240-72-72-c-120-iso8859-8
 helvB08_lat9.bdf -adobe-helvetica-bold-r-normal--8-80-75-75-p-50-iso8859-15
 helvB10_lat9.bdf -adobe-helvetica-bold-r-normal--10-100-75-75-p-60-iso8859-15
 helvB12_lat9.bdf -adobe-helvetica-bold-r-normal--12-120-75-75-p-70-iso8859-15
@@ -931,6 +937,24 @@ jdecw_screen_romankana_12_24.bdf -jdecw-screen-medium-r-normal--24-240-75-75-m-1
 jdecw_screen_romankana_5_10.bdf -jdecw-screen-medium-r-normal--10-100-75-75-m-50-jisx0201-romankana
 jdecw_screen_romankana_7_14.bdf -jdecw-screen-medium-r-normal--14-140-75-75-m-70-jisx0201-romankana
 jdecw_screen_romankana_8_18.bdf -jdecw-screen-medium-r-normal--18-180-75-75-m-80-jisx0201-romankana
+lt1-16-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--16-160-72-72-c-80-iso8859-1
+lt1-16b-etl-cpq.bdf -etl&compaq-fixed-bold-r-normal--16-160-72-72-c-80-iso8859-1
+lt1-16bi-etl-cpq.bdf -etl&compaq-fixed-bold-i-normal--16-160-72-72-c-80-iso8859-1
+lt1-16i-etl-cpq.bdf -etl&compaq-fixed-medium-i-normal--16-160-72-72-c-80-iso8859-1
+lt1-24-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--24-240-72-72-c-120-iso8859-1
+lt1-24b-etl-cpq.bdf -etl&compaq-fixed-bold-r-normal--24-240-72-72-c-120-iso8859-1
+lt1-24bi-etl-cpq.bdf -etl&compaq-fixed-bold-i-normal--24-240-72-72-c-120-iso8859-1
+lt1-24i-etl-cpq.bdf -etl&compaq-fixed-medium-i-normal--24-240-72-72-c-120-iso8859-1
+lt2-16-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--16-160-72-72-c-80-iso8859-2
+lt2-24-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--24-240-72-72-c-120-iso8859-2
+lt3-16-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--16-160-72-72-c-80-iso8859-3
+lt3-24-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--24-240-72-72-c-120-iso8859-3
+lt4-16-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--16-160-72-72-c-80-iso8859-4
+lt4-24-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--24-240-72-72-c-120-iso8859-4
+lt5-16-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--16-160-72-72-c-80-iso8859-9
+lt5-24-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--24-240-72-72-c-120-iso8859-9
+lt9-16-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--16-160-72-72-c-80-iso8859-15
+lt9-24-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--24-240-72-72-c-120-iso8859-15
 luBIS08_lat9.bdf -b&h-lucida-bold-i-normal-sans-8-80-75-75-p-49-iso8859-15
 luBIS10_lat9.bdf -b&h-lucida-bold-i-normal-sans-10-100-75-75-p-67-iso8859-15
 luBIS12_lat9.bdf -b&h-lucida-bold-i-normal-sans-12-120-75-75-p-79-iso8859-15
@@ -1379,6 +1403,8 @@ timesnewroman_latgreek_14.bdf -monotype-times new roman-regular-r-normal--14-140
 timesnewroman_latgreek_18.bdf -monotype-times new roman-regular-r-normal--18-180-75-75-p-88-iso8859-7
 timesnewroman_latgreek_24.bdf -monotype-times new roman-regular-r-normal--24-240-75-75-p-121-iso8859-7
 timesnewroman_latgreek_36.bdf -monotype-times new roman-regular-r-normal--36-360-75-75-p-185-iso8859-7
+unicode-16-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--16-160-72-72-c-80-iso10646-1
+unicode-24-etl-cpq.bdf -etl&compaq-fixed-medium-r-normal--24-240-72-72-c-120-iso10646-1
 vtlat2-14.bdf -dec-terminal-medium-r-normal--14-140-75-75-c-80-iso8859-2
 vtlat2-18.bdf -dec-terminal-medium-r-normal--18-180-75-75-c-110-iso8859-2
 vtlat2-28.bdf -dec-terminal-medium-r-normal--28-280-75-75-c-160-iso8859-2
