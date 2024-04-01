@@ -1,0 +1,113 @@
+COMMENT @(#)59	1.3  src/bos/usr/lpp/tls/fonts/Chtpc17.bdf, cmdtw, bos411, 9428A410j 2/24/94 13:39:11
+COMMENT
+COMMENT   COMPONENT_NAME: cmdtw
+COMMENT
+COMMENT   FUNCTIONS: none
+COMMENT
+COMMENT   ORIGINS: 27
+COMMENT
+COMMENT   IBM CONFIDENTIAL -- (IBM Confidential Restricted when
+COMMENT   combined with the aggregated modules for this product)
+COMMENT                    SOURCE MATERIALS
+COMMENT
+COMMENT   (C) COPYRIGHT International Business Machines Corp. 1992
+COMMENT   All Rights Reserved
+COMMENT   US Government Users Restricted Rights - Use, duplication or
+COMMENT   disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+COMMENT
+STARTFONT 2.1
+FONT  -IBM_AIX-Sung-Medium-R-Normal--27-170-100-100-M-260-IBM-udcTW
+SIZE 27 100 100
+FONTBOUNDINGBOX 26 27 0 -1
+STARTPROPERTIES 20
+FONTNAME_REGISTRY "-"
+FOUNDRY "IBM_AIX"
+FAMILY_NAME "Sung"
+WEIGHT_NAME "Medium"
+SLANT "R"
+SETWIDTH_NAME "Normal"
+ADD_STYLE_NAME ""
+PIXEL_SIZE 27
+POINT_SIZE 170
+RESOLUTION_X 100
+RESOLUTION_Y 100
+SPACING "M"
+AVERAGE_WIDTH 260
+CHARSET_REGISTRY "IBM"
+CHARSET_ENCODING "udcTW"
+FONT_ASCENT 26
+FONT_DESCENT 1
+DEFAULT_CHAR 8481
+CAP_HEIGHT 27
+COPYRIGHT "Copyright, 1992 by IBM."
+ENDPROPERTIES
+CHARS 2
+STARTCHAR 2121
+ENCODING 8481
+SWIDTH 962 0
+DWIDTH 26 0
+BBX 26 27 0 -1
+BITMAP
+00000000
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+00000000
+00000000
+ENDCHAR
+STARTCHAR 2221
+ENCODING 8737
+SWIDTH 962 0
+DWIDTH 26 0
+BBX 26 27 0 -1
+BITMAP
+00000000
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+ffffff00
+00000000
+00000000
+ENDCHAR
+ENDFONT

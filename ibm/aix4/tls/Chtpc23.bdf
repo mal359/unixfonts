@@ -1,0 +1,129 @@
+COMMENT @(#)55	1.2  src/bos/usr/lpp/tls/fonts/Chtpc23.bdf, cmdtw, bos411, 9428A410j 2/24/94 13:39:14
+COMMENT
+COMMENT   COMPONENT_NAME: cmdtw
+COMMENT
+COMMENT   FUNCTIONS: none
+COMMENT
+COMMENT   ORIGINS: 27
+COMMENT
+COMMENT   IBM CONFIDENTIAL -- (IBM Confidential Restricted when
+COMMENT   combined with the aggregated modules for this product)
+COMMENT                    SOURCE MATERIALS
+COMMENT
+COMMENT   (C) COPYRIGHT International Business Machines Corp. 1992
+COMMENT   All Rights Reserved
+COMMENT   US Government Users Restricted Rights - Use, duplication or
+COMMENT   disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+COMMENT
+STARTFONT 2.1
+FONT  -IBM_AIX-Sung-Medium-R-Normal--35-230-100-100-M-340-IBM-udcTW
+SIZE 35 100 100
+FONTBOUNDINGBOX 34 35 0 -4
+STARTPROPERTIES 20
+FONTNAME_REGISTRY "_"
+FOUNDRY "IBM_AIX "
+FAMILY_NAME "Sung"
+WEIGHT_NAME "Medium "
+SLANT "R"
+SETWIDTH_NAME "Normal"
+ADD_STYLE_NAME ""
+PIXEL_SIZE 35
+POINT_SIZE 230
+RESOLUTION_X 100
+RESOLUTION_Y 100
+SPACING "M"
+AVERAGE_WIDTH 340
+CHARSET_REGISTRY "IBM"
+CHARSET_ENCODING "udcTW"
+FONT_ASCENT 31
+FONT_DESCENT 4
+DEFAULT_CHAR 0
+CAP_HEIGHT 35
+COPYRIGHT "Copyright, 1992 by IBM."
+ENDPROPERTIES
+CHARS 2
+STARTCHAR 2121
+ENCODING 8481
+SWIDTH 1020 0
+DWIDTH 34 0
+BBX 34 35 0 -4
+BITMAP
+0000000000
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+0000000000
+0000000000
+ENDCHAR
+STARTCHAR 2221
+ENCODING 8737
+SWIDTH 1020 0
+DWIDTH 34 0
+BBX 34 35 0 -4
+BITMAP
+0000000000
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+7fffffff80
+0000000000
+0000000000
+ENDCHAR
+ENDFONT
