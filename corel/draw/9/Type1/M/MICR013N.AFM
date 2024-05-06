@@ -1,0 +1,43 @@
+StartFontMetrics 3.0
+Comment Copyright 1987-1992 as an unpublished work by Bitstream Inc., Cambridge, MA.
+Comment All rights reserved
+Comment Confidential and proprietary to Bitstream Inc.
+Comment Bitstream is a registered trademark of Bitstream Inc.
+Comment Creation Date: Thu Jul 16 17:53:59 1992
+Comment UniqueID 15532110
+Comment VMusage 569 620
+Comment Bitstream AFM Data
+Comment bitsClassification OCR 005
+Comment bitsFontID 8731
+Comment bitsManufacturingDate Thu Jul 16 17:53:59 1992
+Comment bitsLayoutName FontSpecific
+FontName MICR13byBT-Regular
+FullName MICR 13
+FamilyName MICR 13
+Weight Medium
+ItalicAngle 0
+IsFixedPitch true
+FontBBox 0 0 433 470
+UnderlinePosition -100
+UnderlineThickness 60
+Version 003.001
+Notice Copyright 1987-1992 as an unpublished work by Bitstream Inc.  All rights reserved.  Confidential.
+EncodingScheme FontSpecific
+StartCharMetrics 15
+C 32 ; WX 500 ; N space ; B 0 0 0 0 ;
+C 48 ; WX 500 ; N zero ; B 67 0 433 470 ;
+C 49 ; WX 500 ; N one ; B 223 0 433 470 ;
+C 50 ; WX 500 ; N two ; B 224 0 433 470 ;
+C 51 ; WX 500 ; N three ; B 171 0 433 470 ;
+C 52 ; WX 500 ; N four ; B 119 0 433 470 ;
+C 53 ; WX 500 ; N five ; B 171 0 433 470 ;
+C 54 ; WX 500 ; N six ; B 119 0 433 470 ;
+C 55 ; WX 500 ; N seven ; B 171 0 433 470 ;
+C 56 ; WX 500 ; N eight ; B 67 0 433 470 ;
+C 57 ; WX 500 ; N nine ; B 119 0 433 470 ;
+C 65 ; WX 500 ; N symbol1 ; B 67 0 433 470 ;
+C 66 ; WX 500 ; N symbol2 ; B 67 0 433 470 ;
+C 67 ; WX 500 ; N symbol3 ; B 67 78 433 444 ;
+C 68 ; WX 500 ; N symbol4 ; B 67 131 433 339 ;
+EndCharMetrics
+EndFontMetrics

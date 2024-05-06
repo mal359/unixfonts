@@ -1,0 +1,1260 @@
+StartFontMetrics 3.0
+Comment Copyright URW Software, Copyright 1994 by URW
+Comment Creation Date: 5/19/1994
+FontName LucidaSanTCY-Roma
+FullName Lucida Sans T CY Roman
+FamilyName Lucida Sans T CY
+Weight Roman
+ItalicAngle 0.0
+IsFixedPitch false
+UnderlinePosition -36
+UnderlineThickness 72
+Version 001.005
+Notice URW Software, Copyright 1994 by URW
+EncodingScheme FontSpecific
+FontBBox -90 -205 1024 940
+CapHeight 723
+XHeight 530
+Descender -193
+Ascender 771
+StartCharMetrics 234
+C 32 ; WX 316 ; N space ; B 98 0 98 0 ;
+C 33 ; WX 316 ; N exclam ; B 110 0 206 723 ;
+C 34 ; WX 374 ; N quotedbl ; B 54 530 319 771 ;
+C 35 ; WX 632 ; N numbersign ; B 7 0 625 723 ;
+C 36 ; WX 632 ; N dollar ; B 105 -60 515 783 ;
+C 37 ; WX 669 ; N percent ; B 6 -18 663 741 ;
+C 38 ; WX 697 ; N ampersand ; B 36 -18 655 741 ;
+C 39 ; WX 229 ; N quotesingle ; B 54 506 175 771 ;
+C 40 ; WX 325 ; N parenleft ; B 60 -145 289 771 ;
+C 41 ; WX 325 ; N parenright ; B 36 -145 265 771 ;
+C 42 ; WX 482 ; N asterisk ; B 54 366 429 723 ;
+C 43 ; WX 632 ; N plus ; B 51 24 581 554 ;
+C 44 ; WX 316 ; N comma ; B 98 -157 219 121 ;
+C 45 ; WX 325 ; N hyphen ; B 54 265 271 337 ;
+C 46 ; WX 316 ; N period ; B 98 0 219 121 ;
+C 47 ; WX 494 ; N slash ; B 6 -145 488 771 ;
+C 48 ; WX 632 ; N zero ; B 63 -18 569 741 ;
+C 49 ; WX 632 ; N one ; B 148 0 359 729 ;
+C 50 ; WX 632 ; N two ; B 83 0 517 741 ;
+C 51 ; WX 632 ; N three ; B 102 -18 523 741 ;
+C 52 ; WX 632 ; N four ; B 51 0 563 723 ;
+C 53 ; WX 632 ; N five ; B 122 -18 515 723 ;
+C 54 ; WX 632 ; N six ; B 67 -18 560 741 ;
+C 55 ; WX 633 ; N seven ; B 108 0 572 723 ;
+C 56 ; WX 632 ; N eight ; B 86 -18 570 741 ;
+C 57 ; WX 632 ; N nine ; B 76 -18 567 741 ;
+C 58 ; WX 316 ; N colon ; B 110 0 206 530 ;
+C 59 ; WX 316 ; N semicolon ; B 110 -157 206 530 ;
+C 60 ; WX 632 ; N less ; B 51 24 581 554 ;
+C 61 ; WX 632 ; N equal ; B 51 169 581 410 ;
+C 62 ; WX 632 ; N greater ; B 51 24 581 554 ;
+C 63 ; WX 422 ; N question ; B 18 0 403 741 ;
+C 64 ; WX 858 ; N at ; B 45 -18 822 741 ;
+C 65 ; WX 690 ; N A ; B 8 0 678 723 ;
+C 66 ; WX 575 ; N B ; B 93 0 533 723 ;
+C 67 ; WX 692 ; N C ; B 51 -18 636 741 ;
+C 68 ; WX 749 ; N D ; B 93 0 697 723 ;
+C 69 ; WX 542 ; N E ; B 93 0 518 723 ;
+C 70 ; WX 536 ; N F ; B 93 0 497 723 ;
+C 71 ; WX 723 ; N G ; B 52 -18 637 741 ;
+C 72 ; WX 735 ; N H ; B 93 0 642 723 ;
+C 73 ; WX 288 ; N I ; B 93 0 195 723 ;
+C 74 ; WX 311 ; N J ; B -90 -145 221 723 ;
+C 75 ; WX 653 ; N K ; B 93 0 634 723 ;
+C 76 ; WX 533 ; N L ; B 93 0 521 723 ;
+C 77 ; WX 861 ; N M ; B 93 0 768 723 ;
+C 78 ; WX 739 ; N N ; B 93 0 645 723 ;
+C 79 ; WX 777 ; N O ; B 51 -18 727 741 ;
+C 80 ; WX 553 ; N P ; B 93 0 535 723 ;
+C 81 ; WX 777 ; N Q ; B 51 -145 800 741 ;
+C 82 ; WX 632 ; N R ; B 93 0 622 723 ;
+C 83 ; WX 539 ; N S ; B 49 -18 489 741 ;
+C 84 ; WX 632 ; N T ; B 9 0 624 723 ;
+C 85 ; WX 693 ; N U ; B 87 -18 605 723 ;
+C 86 ; WX 654 ; N V ; B 17 0 649 723 ;
+C 87 ; WX 855 ; N W ; B 1 0 854 723 ;
+C 88 ; WX 626 ; N X ; B 8 0 600 723 ;
+C 89 ; WX 623 ; N Y ; B 8 0 609 723 ;
+C 90 ; WX 605 ; N Z ; B 46 0 557 723 ;
+C 91 ; WX 325 ; N bracketleft ; B 96 -145 289 771 ;
+C 92 ; WX 494 ; N backslash ; B 6 -145 488 771 ;
+C 93 ; WX 325 ; N bracketright ; B 36 -145 229 771 ;
+C 94 ; WX 632 ; N asciicircum ; B 51 193 581 723 ;
+C 95 ; WX 500 ; N underscore ; B 42 -72 458 0 ;
+C 96 ; WX 542 ; N grave ; B 139 626 356 771 ;
+C 97 ; WX 552 ; N a ; B 50 -12 528 542 ;
+C 98 ; WX 630 ; N b ; B 96 -12 574 771 ;
+C 99 ; WX 512 ; N c ; B 54 -12 464 542 ;
+C 100 ; WX 630 ; N d ; B 54 -12 533 771 ;
+C 101 ; WX 557 ; N e ; B 54 -12 487 542 ;
+C 102 ; WX 367 ; N f ; B 39 0 397 783 ;
+C 103 ; WX 623 ; N g ; B 54 -205 533 542 ;
+C 104 ; WX 621 ; N h ; B 96 0 530 771 ;
+C 105 ; WX 289 ; N i ; B 96 0 192 723 ;
+C 106 ; WX 304 ; N j ; B -75 -205 208 723 ;
+C 107 ; WX 584 ; N k ; B 96 0 564 771 ;
+C 108 ; WX 289 ; N l ; B 96 0 192 771 ;
+C 109 ; WX 934 ; N m ; B 96 0 843 542 ;
+C 110 ; WX 621 ; N n ; B 96 0 530 542 ;
+C 111 ; WX 614 ; N o ; B 54 -12 560 542 ;
+C 112 ; WX 630 ; N p ; B 96 -193 574 542 ;
+C 113 ; WX 630 ; N q ; B 54 -193 533 542 ;
+C 114 ; WX 409 ; N r ; B 96 0 389 542 ;
+C 115 ; WX 510 ; N s ; B 77 -12 433 542 ;
+C 116 ; WX 374 ; N t ; B 34 -12 335 635 ;
+C 117 ; WX 621 ; N u ; B 90 -12 524 530 ;
+C 118 ; WX 518 ; N v ; B 9 0 512 530 ;
+C 119 ; WX 770 ; N w ; B 6 0 764 530 ;
+C 120 ; WX 613 ; N x ; B 43 0 568 530 ;
+C 121 ; WX 522 ; N y ; B 8 -193 517 530 ;
+C 122 ; WX 574 ; N z ; B 60 0 513 530 ;
+C 123 ; WX 325 ; N braceleft ; B 12 -144 259 771 ;
+C 124 ; WX 265 ; N bar ; B 96 -145 168 771 ;
+C 125 ; WX 325 ; N braceright ; B 66 -144 313 771 ;
+C 126 ; WX 632 ; N asciitilde ; B 51 199 581 377 ;
+C 128 ; WX 795 ; N cyrTY ; B 6 -6 759 723 ;
+C 129 ; WX 509 ; N cyrGacute ; B 93 0 497 940 ;
+C 130 ; WX 316 ; N quotesinglbase ; B 98 -145 219 121 ;
+C 131 ; WX 494 ; N cyrgacute ; B 96 0 481 783 ;
+C 132 ; WX 374 ; N quotedblbase ; B 54 -157 319 96 ;
+C 133 ; WX 1000 ; N ellipsis ; B 121 0 880 96 ;
+C 134 ; WX 632 ; N dagger ; B 111 -145 521 723 ;
+C 135 ; WX 632 ; N daggerdbl ; B 111 -145 521 723 ;
+C 137 ; WX 1012 ; N perthousand ; B 6 -18 1006 741 ;
+C 138 ; WX 982 ; N cyrLY ; B 15 0 945 723 ;
+C 139 ; WX 331 ; N guilsinglleft ; B 54 48 295 482 ;
+C 140 ; WX 967 ; N cyrNY ; B 93 0 930 723 ;
+C 141 ; WX 593 ; N cyrKacute ; B 93 0 562 940 ;
+C 142 ; WX 762 ; N cyrDY ; B 9 0 723 723 ;
+C 143 ; WX 735 ; N cyrDZH ; B 93 -157 642 723 ;
+C 144 ; WX 620 ; N cyrty ; B 0 -205 530 771 ;
+C 145 ; WX 316 ; N quoteleft ; B 98 494 219 771 ;
+C 146 ; WX 316 ; N quoteright ; B 98 493 219 771 ;
+C 147 ; WX 374 ; N quotedblleft ; B 54 518 319 771 ;
+C 148 ; WX 374 ; N quotedblright ; B 54 518 319 771 ;
+C 149 ; WX 632 ; N bullet ; B 244 214 388 358 ;
+C 150 ; WX 500 ; N endash ; B 51 265 449 325 ;
+C 151 ; WX 1000 ; N emdash ; B 48 265 952 313 ;
+C 153 ; WX 807 ; N trademark ; B 0 361 753 723 ;
+C 154 ; WX 801 ; N cyrly ; B 18 0 756 530 ;
+C 155 ; WX 331 ; N guilsinglright ; B 36 48 277 482 ;
+C 156 ; WX 838 ; N cyrny ; B 96 0 792 530 ;
+C 157 ; WX 537 ; N cyrkacute ; B 96 0 488 783 ;
+C 158 ; WX 620 ; N cyrdy ; B 0 0 530 771 ;
+C 159 ; WX 626 ; N cyrdzh ; B 96 -121 530 530 ;
+C 160 ; WX 316 ; N nbspace ; B 98 0 98 0 ;
+C 161 ; WX 642 ; N cyrUbreve ; B 36 0 651 928 ;
+C 162 ; WX 526 ; N cyrubreve ; B 6 -193 517 771 ;
+C 163 ; WX 311 ; N cyrJ ; B -90 -145 221 723 ;
+C 164 ; WX 633 ; N currency ; B 48 93 585 630 ;
+C 165 ; WX 509 ; N cyrsovG ; B 93 0 497 867 ;
+C 166 ; WX 265 ; N brokenbar ; B 96 -145 168 771 ;
+C 167 ; WX 632 ; N section ; B 108 -163 538 741 ;
+C 168 ; WX 542 ; N cyrYEdieresis ; B 93 0 518 867 ;
+C 169 ; WX 855 ; N copyright ; B 48 -18 807 741 ;
+C 170 ; WX 602 ; N cyrsovYE ; B 51 -18 560 741 ;
+C 171 ; WX 524 ; N guillemotleft ; B 54 48 488 482 ;
+C 172 ; WX 632 ; N logicalnot ; B 51 169 581 410 ;
+C 173 ; WX 325 ; N sfthyphen ; B 54 265 271 337 ;
+C 174 ; WX 855 ; N registered ; B 48 -18 807 741 ;
+C 175 ; WX 288 ; N cyrsovIdieresis ; B 5 0 282 867 ;
+C 176 ; WX 277 ; N degree ; B 31 524 248 741 ;
+C 177 ; WX 632 ; N plusminus ; B 51 0 581 578 ;
+C 178 ; WX 288 ; N cyrsovI ; B 93 0 195 723 ;
+C 179 ; WX 289 ; N cyrsovi ; B 96 0 192 723 ;
+C 180 ; WX 494 ; N cyrsovg ; B 96 0 481 651 ;
+C 181 ; WX 627 ; N mu ; B 96 -193 530 530 ;
+C 182 ; WX 632 ; N paragraph ; B 105 -145 503 723 ;
+C 183 ; WX 316 ; N middot ; B 98 214 219 335 ;
+C 184 ; WX 557 ; N cyryedieresis ; B 54 -12 487 711 ;
+C 185 ; WX 1051 ; N numero ; B 15 0 1024 723 ;
+C 186 ; WX 509 ; N cyrsovye ; B 54 -12 467 542 ;
+C 187 ; WX 524 ; N guillemotright ; B 36 48 470 482 ;
+C 188 ; WX 304 ; N cyrj ; B -75 -205 208 723 ;
+C 189 ; WX 539 ; N cyrDZ ; B 49 -18 489 741 ;
+C 190 ; WX 510 ; N cyrdz ; B 77 -12 433 542 ;
+C 191 ; WX 289 ; N cyrsovidieresis ; B 6 0 283 711 ;
+C 192 ; WX 690 ; N cyrA ; B 9 0 679 723 ;
+C 193 ; WX 581 ; N cyrB ; B 93 0 533 723 ;
+C 194 ; WX 575 ; N cyrV ; B 93 0 533 723 ;
+C 195 ; WX 509 ; N cyrG ; B 93 0 497 723 ;
+C 196 ; WX 762 ; N cyrD ; B 36 -157 732 723 ;
+C 197 ; WX 542 ; N cyrYE ; B 93 0 518 723 ;
+C 198 ; WX 817 ; N cyrZH ; B 27 0 790 723 ;
+C 199 ; WX 524 ; N cyrZ ; B 42 -18 463 741 ;
+C 200 ; WX 741 ; N cyrI ; B 93 0 647 723 ;
+C 201 ; WX 741 ; N cyrIbreve ; B 93 0 647 928 ;
+C 202 ; WX 593 ; N cyrK ; B 93 0 562 723 ;
+C 203 ; WX 702 ; N cyrL ; B 15 0 608 723 ;
+C 204 ; WX 861 ; N cyrM ; B 93 0 768 723 ;
+C 205 ; WX 735 ; N cyrN ; B 93 0 642 723 ;
+C 206 ; WX 777 ; N cyrO ; B 51 -18 727 741 ;
+C 207 ; WX 759 ; N cyrP ; B 39 0 720 723 ;
+C 208 ; WX 553 ; N cyrR ; B 93 0 535 723 ;
+C 209 ; WX 692 ; N cyrS ; B 51 -18 636 741 ;
+C 210 ; WX 632 ; N cyrT ; B 9 0 624 723 ;
+C 211 ; WX 642 ; N cyrU ; B 36 0 651 723 ;
+C 212 ; WX 693 ; N cyrF ; B 30 0 662 723 ;
+C 213 ; WX 626 ; N cyrKH ; B 8 0 600 723 ;
+C 214 ; WX 769 ; N cyrTS ; B 93 -157 738 723 ;
+C 215 ; WX 630 ; N cyrCH ; B 39 0 536 723 ;
+C 216 ; WX 952 ; N cyrSH ; B 93 0 858 723 ;
+C 217 ; WX 985 ; N cyrSHCH ; B 93 -157 954 723 ;
+C 218 ; WX 678 ; N cyrHARDsign ; B 9 0 641 723 ;
+C 219 ; WX 831 ; N cyrYERU ; B 93 0 738 723 ;
+C 220 ; WX 569 ; N cyrSOFTsign ; B 93 0 532 723 ;
+C 221 ; WX 602 ; N cyrE ; B 42 -18 551 741 ;
+C 222 ; WX 966 ; N cyrYU ; B 93 -18 911 741 ;
+C 223 ; WX 620 ; N cyrYA ; B 13 0 527 723 ;
+C 224 ; WX 552 ; N cyra ; B 50 -12 528 542 ;
+C 225 ; WX 596 ; N cyrb ; B 54 -12 545 797 ;
+C 226 ; WX 525 ; N cyrv ; B 96 0 470 530 ;
+C 227 ; WX 494 ; N cyrg ; B 96 0 481 530 ;
+C 228 ; WX 672 ; N cyrd ; B 36 -121 629 530 ;
+C 229 ; WX 557 ; N cyrye ; B 54 -12 487 542 ;
+C 230 ; WX 728 ; N cyrzh ; B 24 0 704 530 ;
+C 231 ; WX 455 ; N cyrz ; B 48 -12 394 542 ;
+C 232 ; WX 666 ; N cyri ; B 96 0 569 530 ;
+C 233 ; WX 666 ; N cyribreve ; B 96 0 569 771 ;
+C 234 ; WX 537 ; N cyrk ; B 96 0 488 530 ;
+C 235 ; WX 587 ; N cyrl ; B 18 0 491 530 ;
+C 236 ; WX 726 ; N cyrm ; B 96 0 629 530 ;
+C 237 ; WX 624 ; N cyrn ; B 96 0 527 530 ;
+C 238 ; WX 614 ; N cyro ; B 54 -12 560 542 ;
+C 239 ; WX 638 ; N cyrp ; B 30 0 608 530 ;
+C 240 ; WX 630 ; N cyrr ; B 96 -193 574 542 ;
+C 241 ; WX 512 ; N cyrs ; B 54 -12 464 542 ;
+C 242 ; WX 494 ; N cyrt ; B 6 0 488 530 ;
+C 243 ; WX 526 ; N cyru ; B 6 -193 517 530 ;
+C 244 ; WX 807 ; N cyrf ; B 60 -193 746 723 ;
+C 245 ; WX 613 ; N cyrkh ; B 43 0 568 530 ;
+C 246 ; WX 669 ; N cyrts ; B 96 -121 626 530 ;
+C 247 ; WX 524 ; N cyrch ; B 39 0 428 530 ;
+C 248 ; WX 940 ; N cyrsh ; B 96 0 843 530 ;
+C 249 ; WX 982 ; N cyrshch ; B 96 -121 939 530 ;
+C 250 ; WX 560 ; N cyrhardsign ; B 9 0 515 530 ;
+C 251 ; WX 738 ; N cyryeru ; B 99 0 641 530 ;
+C 252 ; WX 506 ; N cyrsoftsign ; B 99 0 460 530 ;
+C 253 ; WX 509 ; N cyre ; B 42 -12 454 542 ;
+C 254 ; WX 814 ; N cyryu ; B 96 -12 759 542 ;
+C 255 ; WX 510 ; N cyrya ; B 18 0 414 530 ;
+C -1 ; WX 632 ; N florin ; B 116 -145 592 741 ;
+C -1 ; WX 632 ; N cent ; B 100 0 511 723 ;
+C -1 ; WX 663 ; N Delta ; B 5 0 657 723 ;
+C -1 ; WX 632 ; N notequal ; B 51 72 581 506 ;
+C -1 ; WX 633 ; N sterling ; B 121 0 534 741 ;
+C -1 ; WX 711 ; N radical ; B 56 -145 735 789 ;
+C -1 ; WX 632 ; N approxequal ; B 51 97 581 480 ;
+C -1 ; WX 632 ; N lessequal ; B 51 0 581 626 ;
+C -1 ; WX 843 ; N infinity ; B 58 84 784 494 ;
+C -1 ; WX 632 ; N greaterequal ; B 51 0 581 626 ;
+C -1 ; WX 632 ; N divide ; B 51 36 581 542 ;
+C -1 ; WX 632 ; N partialdiff ; B 99 -12 536 783 ;
+C -1 ; WX 316 ; N .notdef ; B 98 0 98 0 ;
+EndCharMetrics
+StartKernData
+StartKernPairs 1000
+KPX comma one -96
+KPX hyphen T -74
+KPX hyphen V -29
+KPX hyphen Y -59
+KPX hyphen cyrT -74
+KPX hyphen cyrU -64
+KPX hyphen cyrt -45
+KPX period one -96
+KPX zero one -89
+KPX zero four -8
+KPX zero seven -63
+KPX one one -160
+KPX one two -127
+KPX one three -137
+KPX one four -111
+KPX one five -129
+KPX one six -97
+KPX one seven -140
+KPX one eight -113
+KPX one nine -114
+KPX one zero -95
+KPX one period -100
+KPX one comma -100
+KPX two one -94
+KPX two four -92
+KPX two seven -69
+KPX three one -95
+KPX three four -29
+KPX three seven -72
+KPX four one -106
+KPX four four -9
+KPX four seven -86
+KPX five one -89
+KPX five four -33
+KPX five seven -69
+KPX six one -78
+KPX six four -11
+KPX seven one -54
+KPX seven four -106
+KPX seven six -43
+KPX seven seven -34
+KPX seven period -134
+KPX seven colon -69
+KPX eight one -74
+KPX eight seven -51
+KPX nine one -86
+KPX nine four -11
+KPX nine seven -60
+KPX A C -31
+KPX A G -31
+KPX A O -31
+KPX A Q -31
+KPX A T -86
+KPX A U -30
+KPX A V -66
+KPX A W -36
+KPX A Y -78
+KPX A c -17
+KPX A d -11
+KPX A e -18
+KPX A g -20
+KPX A o -16
+KPX A q -11
+KPX A t -20
+KPX A u -16
+KPX A v -25
+KPX A w -12
+KPX A y -27
+KPX A period 9
+KPX A comma 9
+KPX A quotedblright -64
+KPX A guillemotleft -32
+KPX A quoteright -84
+KPX B V -15
+KPX B Y -18
+KPX C A 11
+KPX D A -32
+KPX D J -24
+KPX D T -28
+KPX D V -30
+KPX D Y -40
+KPX F A -62
+KPX F J -28
+KPX F O -19
+KPX F a -53
+KPX F e -21
+KPX F o -21
+KPX F r -39
+KPX F u -36
+KPX F period -101
+KPX F comma -101
+KPX K C -60
+KPX K G -60
+KPX K O -61
+KPX K T 11
+KPX K a -12
+KPX K e -45
+KPX K o -41
+KPX K u -31
+KPX K y -62
+KPX K hyphen -85
+KPX L C -32
+KPX L G -30
+KPX L O -33
+KPX L T -88
+KPX L U -22
+KPX L V -86
+KPX L W -39
+KPX L Y -80
+KPX L y -45
+KPX L quotedblright -111
+KPX L hyphen -111
+KPX L quoteright -133
+KPX N a -10
+KPX N period -11
+KPX N comma -10
+KPX O A -29
+KPX O T -23
+KPX O V -29
+KPX O X -28
+KPX O Y -38
+KPX P A -55
+KPX P J -18
+KPX P e -10
+KPX P o -10
+KPX P period -109
+KPX P comma -109
+KPX R C -28
+KPX R G -28
+KPX R O -29
+KPX R T -20
+KPX R U -28
+KPX R V -34
+KPX R W -20
+KPX R Y -38
+KPX R e -30
+KPX R o -28
+KPX R u -24
+KPX R hyphen -42
+KPX S t -21
+KPX T A -85
+KPX T C -20
+KPX T G -21
+KPX T J -13
+KPX T O -23
+KPX T S 11
+KPX T V 37
+KPX T W 45
+KPX T Y 41
+KPX T a -102
+KPX T c -95
+KPX T e -95
+KPX T g -96
+KPX T o -94
+KPX T r -95
+KPX T s -111
+KPX T u -95
+KPX T v -85
+KPX T w -83
+KPX T y -85
+KPX T period -98
+KPX T colon -124
+KPX T comma -97
+KPX T semicolon -120
+KPX T guillemotleft -109
+KPX T hyphen -74
+KPX U A -29
+KPX U m -9
+KPX U n -9
+KPX U p -9
+KPX U r -9
+KPX U period -23
+KPX U comma -24
+KPX V A -57
+KPX V C -21
+KPX V G -22
+KPX V O -22
+KPX V T 43
+KPX V a -37
+KPX V e -45
+KPX V g -42
+KPX V o -45
+KPX V r -31
+KPX V u -30
+KPX V y 9
+KPX V period -77
+KPX V colon -42
+KPX V comma -76
+KPX V semicolon -40
+KPX V guillemotleft -60
+KPX V hyphen -20
+KPX W A -40
+KPX W C -10
+KPX W G -10
+KPX W O -10
+KPX W T 45
+KPX W a -26
+KPX W e -25
+KPX W g -25
+KPX W o -24
+KPX W r -22
+KPX W u -20
+KPX W y 19
+KPX W period -50
+KPX W colon -32
+KPX W comma -50
+KPX W guillemotleft -39
+KPX X C -35
+KPX X O -36
+KPX X Q -35
+KPX X e -39
+KPX X o -36
+KPX X y -33
+KPX X hyphen -51
+KPX Y A -87
+KPX Y C -42
+KPX Y G -43
+KPX Y O -44
+KPX Y S -11
+KPX Y T 39
+KPX Y a -69
+KPX Y e -83
+KPX Y g -81
+KPX Y o -82
+KPX Y p -59
+KPX Y u -60
+KPX Y v -20
+KPX Y period -101
+KPX Y colon -72
+KPX Y comma -101
+KPX Y semicolon -68
+KPX Y guillemotleft -112
+KPX Y hyphen -71
+KPX a v -16
+KPX a y -17
+KPX b v -9
+KPX b y -9
+KPX c h -18
+KPX c k -18
+KPX e t -17
+KPX e v -15
+KPX e w -9
+KPX e x -9
+KPX e y -15
+KPX f e -14
+KPX f f 22
+KPX f i 20
+KPX f j 12
+KPX f l 20
+KPX f o -13
+KPX f t 24
+KPX h y -14
+KPX k a -12
+KPX k e -43
+KPX k g -44
+KPX k o -41
+KPX k u -23
+KPX k period -9
+KPX k comma -9
+KPX k hyphen -64
+KPX m p -9
+KPX m v -12
+KPX m y -12
+KPX n p -9
+KPX n v -14
+KPX n y -14
+KPX o t -9
+KPX o v -12
+KPX o x -34
+KPX o y -13
+KPX p t -8
+KPX p y -9
+KPX q u -9
+KPX r c -8
+KPX r d -8
+KPX r f 24
+KPX r q -8
+KPX r t 27
+KPX r v 38
+KPX r w 40
+KPX r x 17
+KPX r y 39
+KPX r period -75
+KPX r colon -12
+KPX r comma -75
+KPX r semicolon -12
+KPX r hyphen -52
+KPX s t -21
+KPX t e -21
+KPX t o -20
+KPX t colon -22
+KPX t semicolon -22
+KPX v c -12
+KPX v e -13
+KPX v g -8
+KPX v o -12
+KPX v period -57
+KPX v comma -56
+KPX w period -41
+KPX w comma -41
+KPX w hyphen 15
+KPX x a -22
+KPX x c -37
+KPX x e -37
+KPX x o -36
+KPX x q -33
+KPX y c -12
+KPX y e -13
+KPX y g -8
+KPX y o -12
+KPX y period -57
+KPX y comma -57
+KPX cyrGacute cyrD -74
+KPX cyrGacute cyrL -49
+KPX cyrGacute cyrO -25
+KPX cyrGacute cyrS -22
+KPX cyrGacute cyrT 40
+KPX cyrGacute cyrU 25
+KPX cyrGacute cyrF -54
+KPX cyrGacute cyrCH 25
+KPX cyrGacute cyrsovYE -25
+KPX cyrGacute cyrLY -49
+KPX cyrGacute cyrDY 40
+KPX cyrGacute cyrUbreve 25
+KPX cyrGacute cyra -126
+KPX cyrGacute cyrv -119
+KPX cyrGacute cyrd -122
+KPX cyrGacute cyrye -120
+KPX cyrGacute cyrzh -116
+KPX cyrGacute cyrz -128
+KPX cyrGacute cyri -119
+KPX cyrGacute cyrk -119
+KPX cyrGacute cyrl -113
+KPX cyrGacute cyrm -119
+KPX cyrGacute cyrn -119
+KPX cyrGacute cyro -119
+KPX cyrGacute cyrp -116
+KPX cyrGacute cyrr -120
+KPX cyrGacute cyrs -120
+KPX cyrGacute cyrt -107
+KPX cyrGacute cyru -108
+KPX cyrGacute cyrf -119
+KPX cyrGacute cyrkh -128
+KPX cyrGacute cyrts -119
+KPX cyrGacute cyrhardsign -109
+KPX cyrGacute cyryu -120
+KPX cyrGacute cyrya -113
+KPX cyrGacute cyrsovye -119
+KPX cyrGacute cyrly -113
+KPX cyrGacute cyrch -124
+KPX cyrGacute cyrubreve -8
+KPX cyrgacute cyrd -47
+KPX cyrgacute cyrl -26
+KPX cyrgacute cyrly -26
+KPX quotedblbase A 30
+KPX quotedblbase T -77
+KPX quotedblbase V -67
+KPX quotedblbase W -22
+KPX quotedblbase Y -69
+KPX cyrLY cyrT -100
+KPX cyrLY cyrU -22
+KPX cyrLY cyrCH -16
+KPX cyrLY cyrHARDsign -69
+KPX cyrLY cyrDY -81
+KPX cyrLY cyrUbreve -22
+KPX cyrLY cyrhardsign -30
+KPX cyrNY cyrT -100
+KPX cyrNY cyrU -22
+KPX cyrNY cyrCH -17
+KPX cyrNY cyrHARDsign -69
+KPX cyrNY cyrDY -81
+KPX cyrNY cyrUbreve -22
+KPX cyrNY cyrhardsign -30
+KPX cyrKacute cyrZ 13
+KPX cyrKacute cyrO -33
+KPX cyrKacute cyrS -33
+KPX cyrKacute cyrF -43
+KPX cyrKacute cyrsovYE -33
+KPX cyrKacute cyra -11
+KPX cyrKacute cyrb -29
+KPX cyrKacute cyrye -34
+KPX cyrKacute cyrz 12
+KPX cyrKacute cyro -32
+KPX cyrKacute cyrs -34
+KPX cyrKacute cyrt -37
+KPX cyrKacute cyru -38
+KPX cyrKacute cyrf -33
+KPX cyrKacute cyrsovye -32
+KPX cyrKacute cyrch -53
+KPX cyrKacute cyrubreve -31
+KPX quotedblleft A -64
+KPX quotedblleft T 15
+KPX quotedblleft V 26
+KPX quotedblleft W 41
+KPX quotedblleft Y 19
+KPX quotedblright A -69
+KPX quotedblright T 18
+KPX quotedblright V 24
+KPX quotedblright W 39
+KPX quotedblright Y 17
+KPX cyrly cyrt -68
+KPX cyrly cyru -42
+KPX cyrly cyrhardsign -45
+KPX cyrly cyrch -11
+KPX cyrly cyrubreve -43
+KPX cyrny cyrt -68
+KPX cyrny cyru -43
+KPX cyrny cyrhardsign -46
+KPX cyrny cyrch -12
+KPX cyrny cyrubreve -43
+KPX cyrkacute cyra -20
+KPX cyrkacute cyrb -12
+KPX cyrkacute cyrye -30
+KPX cyrkacute cyro -29
+KPX cyrkacute cyrs -30
+KPX cyrkacute cyrf -29
+KPX cyrkacute cyrsovye -29
+KPX cyrkacute cyrubreve 12
+KPX cyrUbreve cyrA -83
+KPX cyrUbreve cyrD -64
+KPX cyrUbreve cyrZ 27
+KPX cyrUbreve cyrL -38
+KPX cyrUbreve cyrO -28
+KPX cyrUbreve cyrS -26
+KPX cyrUbreve cyrT 50
+KPX cyrUbreve cyrF -37
+KPX cyrUbreve cyrCH 35
+KPX cyrUbreve cyrYA -30
+KPX cyrUbreve cyrsovYE -28
+KPX cyrUbreve cyrLY -38
+KPX cyrUbreve cyrDY 50
+KPX cyrUbreve cyrUbreve 35
+KPX cyrUbreve cyra -49
+KPX cyrUbreve cyrb -14
+KPX cyrUbreve cyrd -91
+KPX cyrUbreve cyrye -66
+KPX cyrUbreve cyrzh -30
+KPX cyrUbreve cyrz -29
+KPX cyrUbreve cyri -44
+KPX cyrUbreve cyrk -44
+KPX cyrUbreve cyrl -70
+KPX cyrUbreve cyrm -44
+KPX cyrUbreve cyrn -44
+KPX cyrUbreve cyro -66
+KPX cyrUbreve cyrp -11
+KPX cyrUbreve cyrr -41
+KPX cyrUbreve cyrs -65
+KPX cyrUbreve cyrf -67
+KPX cyrUbreve cyrkh -22
+KPX cyrUbreve cyrts -44
+KPX cyrUbreve cyryu -41
+KPX cyrUbreve cyrya -59
+KPX cyrUbreve cyrsovye -66
+KPX cyrUbreve cyrly -70
+KPX cyrUbreve cyrch -15
+KPX cyrubreve cyrd -44
+KPX cyrubreve cyrye -15
+KPX cyrubreve cyrz 16
+KPX cyrubreve cyrl -24
+KPX cyrubreve cyro -14
+KPX cyrubreve cyrs -14
+KPX cyrubreve cyrt 46
+KPX cyrubreve cyrf -16
+KPX cyrubreve cyrya -9
+KPX cyrubreve cyrsovye -14
+KPX cyrubreve cyrch 30
+KPX cyrsovG cyrD -74
+KPX cyrsovG cyrL -49
+KPX cyrsovG cyrO -25
+KPX cyrsovG cyrS -22
+KPX cyrsovG cyrT 40
+KPX cyrsovG cyrU 25
+KPX cyrsovG cyrF -54
+KPX cyrsovG cyrCH 25
+KPX cyrsovG cyrYA -24
+KPX cyrsovG cyrsovYE -25
+KPX cyrsovG cyrLY -49
+KPX cyrsovG cyrDY 40
+KPX cyrsovG cyrUbreve 25
+KPX cyrsovG cyra -126
+KPX cyrsovG cyrv -119
+KPX cyrsovG cyrd -122
+KPX cyrsovG cyrye -120
+KPX cyrsovG cyrzh -116
+KPX cyrsovG cyrz -128
+KPX cyrsovG cyri -119
+KPX cyrsovG cyrk -119
+KPX cyrsovG cyrl -113
+KPX cyrsovG cyrm -119
+KPX cyrsovG cyrn -119
+KPX cyrsovG cyro -119
+KPX cyrsovG cyrp -116
+KPX cyrsovG cyrr -120
+KPX cyrsovG cyrs -120
+KPX cyrsovG cyrt -107
+KPX cyrsovG cyru -108
+KPX cyrsovG cyrf -119
+KPX cyrsovG cyrkh -128
+KPX cyrsovG cyrts -119
+KPX cyrsovG cyrhardsign -109
+KPX cyrsovG cyryu -120
+KPX cyrsovG cyrya -113
+KPX cyrsovG cyrsovye -119
+KPX cyrsovG cyrly -113
+KPX cyrsovG cyrch -124
+KPX guillemotleft cyrA 13
+KPX guillemotleft cyrL 25
+KPX guillemotleft cyrT -94
+KPX guillemotleft cyrCH 13
+KPX guillemotleft cyrl 25
+KPX guillemotleft cyrt 31
+KPX guillemotleft cyru 14
+KPX guillemotleft cyrch 14
+KPX cyrsovg cyrd -47
+KPX cyrsovg cyrl -26
+KPX cyrsovg cyrly -26
+KPX guillemotright A -31
+KPX guillemotright T -109
+KPX guillemotright V -69
+KPX guillemotright W -34
+KPX guillemotright Y -100
+KPX cyrA period 9
+KPX cyrA colon -10
+KPX cyrA comma 9
+KPX cyrA semicolon -10
+KPX cyrA guillemotright 13
+KPX cyrA cyrZ 23
+KPX cyrA cyrL 37
+KPX cyrA cyrO -30
+KPX cyrA cyrS -31
+KPX cyrA cyrT -85
+KPX cyrA cyrU 11
+KPX cyrA cyrF -29
+KPX cyrA cyrCH -48
+KPX cyrA cyrHARDsign -56
+KPX cyrA cyrsovYE -31
+KPX cyrA cyrLY 37
+KPX cyrA cyrDY -68
+KPX cyrA cyrUbreve 11
+KPX cyrA cyrz 22
+KPX cyrA cyrl 37
+KPX cyrA cyro -16
+KPX cyrA cyrs -17
+KPX cyrA cyrt -42
+KPX cyrA cyru -32
+KPX cyrA cyrf -16
+KPX cyrA cyrhardsign -30
+KPX cyrA cyrly 37
+KPX cyrA cyrch -30
+KPX cyrA cyrubreve -32
+KPX cyrB cyrA -10
+KPX cyrB cyrZH -19
+KPX cyrB cyrU -11
+KPX cyrB cyrCH -11
+KPX cyrB cyrSH -16
+KPX cyrB cyrUbreve -11
+KPX cyrB cyrzh -23
+KPX cyrB cyrt -41
+KPX cyrB cyru -28
+KPX cyrB cyrhardsign -35
+KPX cyrB cyrubreve -29
+KPX cyrV cyrZH -11
+KPX cyrV cyrU -16
+KPX cyrV cyrUbreve -16
+KPX cyrV cyrzh -11
+KPX cyrV cyrt 10
+KPX cyrV cyru 9
+KPX cyrV cyrhardsign 9
+KPX cyrV cyrly 10
+KPX cyrV cyrubreve 10
+KPX cyrG period -122
+KPX cyrG colon -149
+KPX cyrG comma -122
+KPX cyrG semicolon -145
+KPX cyrG hyphen -99
+KPX cyrG cyrD -74
+KPX cyrG cyrL -49
+KPX cyrG cyrO -25
+KPX cyrG cyrS -22
+KPX cyrG cyrT 40
+KPX cyrG cyrU 25
+KPX cyrG cyrF -54
+KPX cyrG cyrCH 25
+KPX cyrG cyrsovYE -25
+KPX cyrG cyrLY -49
+KPX cyrG cyrDY 40
+KPX cyrG cyrUbreve 25
+KPX cyrG cyra -126
+KPX cyrG cyrv -119
+KPX cyrG cyrd -122
+KPX cyrG cyrye -120
+KPX cyrG cyrzh -116
+KPX cyrG cyrz -128
+KPX cyrG cyri -119
+KPX cyrG cyrk -119
+KPX cyrG cyrl -113
+KPX cyrG cyrm -119
+KPX cyrG cyrn -119
+KPX cyrG cyro -119
+KPX cyrG cyrp -116
+KPX cyrG cyrr -120
+KPX cyrG cyrs -120
+KPX cyrG cyrt -107
+KPX cyrG cyru -108
+KPX cyrG cyrf -119
+KPX cyrG cyrkh -128
+KPX cyrG cyrts -119
+KPX cyrG cyrhardsign -109
+KPX cyrG cyryu -120
+KPX cyrG cyrya -113
+KPX cyrG cyrsovye -119
+KPX cyrG cyrly -113
+KPX cyrG cyrch -124
+KPX cyrG cyrubreve -10
+KPX cyrYE cyrF -11
+KPX cyrZH cyrZ 15
+KPX cyrZH cyrO -26
+KPX cyrZH cyrS -25
+KPX cyrZH cyrF -35
+KPX cyrZH cyrsovYE -26
+KPX cyrZH cyrb -20
+KPX cyrZH cyrye -28
+KPX cyrZH cyrz 14
+KPX cyrZH cyro -26
+KPX cyrZH cyrs -27
+KPX cyrZH cyrt -30
+KPX cyrZH cyru -31
+KPX cyrZH cyrf -27
+KPX cyrZH cyrsovye -26
+KPX cyrZH cyrch -43
+KPX cyrZH cyrubreve -29
+KPX cyrZ cyrA -14
+KPX cyrZ cyrD -9
+KPX cyrZ cyrZH -22
+KPX cyrZ cyrZ -12
+KPX cyrZ cyrU -29
+KPX cyrZ cyrKH -23
+KPX cyrZ cyrCH -10
+KPX cyrZ cyrYA -27
+KPX cyrZ cyrUbreve -29
+KPX cyrZ cyrkh -19
+KPX cyrZ cyrya -14
+KPX cyrZ cyrch -8
+KPX cyrK cyrZ 13
+KPX cyrK cyrO -33
+KPX cyrK cyrS -33
+KPX cyrK cyrF -43
+KPX cyrK cyrsovYE -33
+KPX cyrK cyra -11
+KPX cyrK cyrb -29
+KPX cyrK cyrye -34
+KPX cyrK cyrz 12
+KPX cyrK cyro -32
+KPX cyrK cyrs -34
+KPX cyrK cyrt -37
+KPX cyrK cyru -38
+KPX cyrK cyrf -33
+KPX cyrK cyrsovye -32
+KPX cyrK cyrch -53
+KPX cyrK cyrubreve -33
+KPX cyrO cyrA -30
+KPX cyrO cyrD -32
+KPX cyrO cyrZH -26
+KPX cyrO cyrZ -35
+KPX cyrO cyrL -26
+KPX cyrO cyrT -23
+KPX cyrO cyrU -43
+KPX cyrO cyrKH -28
+KPX cyrO cyrHARDsign -23
+KPX cyrO cyrYA -26
+KPX cyrO cyrLY -26
+KPX cyrO cyrDY -23
+KPX cyrO cyrUbreve -43
+KPX cyrO cyrl -13
+KPX cyrO cyrly -14
+KPX cyrR period -109
+KPX cyrR colon -13
+KPX cyrR comma -109
+KPX cyrR semicolon -13
+KPX cyrR cyrA -55
+KPX cyrR cyrD -70
+KPX cyrR cyrL -52
+KPX cyrR cyrS 9
+KPX cyrR cyrCH 22
+KPX cyrR cyrLY -52
+KPX cyrR cyrd -51
+KPX cyrR cyrye -10
+KPX cyrR cyrz 10
+KPX cyrR cyrl -30
+KPX cyrR cyro -10
+KPX cyrR cyrs -9
+KPX cyrR cyrf -11
+KPX cyrR cyrsovye -10
+KPX cyrR cyrly -30
+KPX cyrS cyrA 11
+KPX cyrS cyrL 15
+KPX cyrS cyrO -32
+KPX cyrS cyrS -32
+KPX cyrS cyrT 18
+KPX cyrS cyrF -50
+KPX cyrS cyrKH 11
+KPX cyrS cyrLY 15
+KPX cyrS cyrDY 18
+KPX cyrS cyrt -75
+KPX cyrS cyru -65
+KPX cyrS cyrly 15
+KPX cyrS cyrch -56
+KPX cyrS cyrubreve -30
+KPX cyrT period -98
+KPX cyrT colon -124
+KPX cyrT comma -97
+KPX cyrT semicolon -120
+KPX cyrT guillemotright -95
+KPX cyrT hyphen -74
+KPX cyrT cyrA -86
+KPX cyrT cyrD -72
+KPX cyrT cyrZ 19
+KPX cyrT cyrL -47
+KPX cyrT cyrO -23
+KPX cyrT cyrS -20
+KPX cyrT cyrT 42
+KPX cyrT cyrU 27
+KPX cyrT cyrF -52
+KPX cyrT cyrYA -22
+KPX cyrT cyrsovYE -23
+KPX cyrT cyrLY -47
+KPX cyrT cyrDY 42
+KPX cyrT cyrUbreve 27
+KPX cyrT cyra -102
+KPX cyrT cyrv -95
+KPX cyrT cyrg -95
+KPX cyrT cyrd -98
+KPX cyrT cyrye -95
+KPX cyrT cyrzh -92
+KPX cyrT cyrz -104
+KPX cyrT cyri -95
+KPX cyrT cyrk -95
+KPX cyrT cyrl -89
+KPX cyrT cyrm -95
+KPX cyrT cyrn -95
+KPX cyrT cyro -94
+KPX cyrT cyrp -92
+KPX cyrT cyrr -95
+KPX cyrT cyrs -95
+KPX cyrT cyrt -83
+KPX cyrT cyru -84
+KPX cyrT cyrf -95
+KPX cyrT cyrkh -103
+KPX cyrT cyrts -95
+KPX cyrT cyrhardsign -84
+KPX cyrT cyrya -89
+KPX cyrT cyrsovye -95
+KPX cyrT cyrly -89
+KPX cyrT cyrch -99
+KPX cyrT cyrubreve -8
+KPX cyrU period -127
+KPX cyrU colon -53
+KPX cyrU comma -127
+KPX cyrU semicolon -50
+KPX cyrU guillemotright -35
+KPX cyrU hyphen -50
+KPX cyrU cyrA -83
+KPX cyrU cyrD -64
+KPX cyrU cyrZ 27
+KPX cyrU cyrL -38
+KPX cyrU cyrO -28
+KPX cyrU cyrS -26
+KPX cyrU cyrT 50
+KPX cyrU cyrU 35
+KPX cyrU cyrF -37
+KPX cyrU cyrCH 35
+KPX cyrU cyrYA -30
+KPX cyrU cyrsovYE -28
+KPX cyrU cyrLY -38
+KPX cyrU cyrDY 50
+KPX cyrU cyra -49
+KPX cyrU cyrb -14
+KPX cyrU cyrd -91
+KPX cyrU cyrye -66
+KPX cyrU cyrzh -30
+KPX cyrU cyrz -29
+KPX cyrU cyri -44
+KPX cyrU cyrk -44
+KPX cyrU cyrl -70
+KPX cyrU cyrm -44
+KPX cyrU cyrn -44
+KPX cyrU cyro -66
+KPX cyrU cyrp -11
+KPX cyrU cyrr -41
+KPX cyrU cyrs -65
+KPX cyrU cyrf -67
+KPX cyrU cyrkh -22
+KPX cyrU cyrts -44
+KPX cyrU cyryu -41
+KPX cyrU cyrya -59
+KPX cyrU cyrsovye -66
+KPX cyrU cyrly -70
+KPX cyrU cyrch -15
+KPX cyrF cyrA -29
+KPX cyrF cyrD -54
+KPX cyrF cyrZH -36
+KPX cyrF cyrL -48
+KPX cyrF cyrU -54
+KPX cyrF cyrKH -39
+KPX cyrF cyrCH 12
+KPX cyrF cyrHARDsign -54
+KPX cyrF cyrYA -27
+KPX cyrF cyrLY -48
+KPX cyrF cyrUbreve -54
+KPX cyrF cyrd -36
+KPX cyrF cyrl -18
+KPX cyrF cyrly -18
+KPX cyrKH cyrZ 15
+KPX cyrKH cyrO -36
+KPX cyrKH cyrS -35
+KPX cyrKH cyrF -46
+KPX cyrKH cyrsovYE -36
+KPX cyrKH cyra -12
+KPX cyrKH cyrye -39
+KPX cyrKH cyrz 13
+KPX cyrKH cyro -36
+KPX cyrKH cyrs -38
+KPX cyrKH cyrt -31
+KPX cyrKH cyru -32
+KPX cyrKH cyrf -35
+KPX cyrKH cyrsovye -36
+KPX cyrKH cyrch -47
+KPX cyrHARDsign cyrT -100
+KPX cyrHARDsign cyrU -22
+KPX cyrHARDsign cyrCH -16
+KPX cyrHARDsign cyrHARDsign -69
+KPX cyrHARDsign cyrDY -81
+KPX cyrHARDsign cyrUbreve -22
+KPX cyrHARDsign cyrhardsign -30
+KPX cyrSOFTsign cyrT -100
+KPX cyrSOFTsign cyrU -22
+KPX cyrSOFTsign cyrCH -16
+KPX cyrSOFTsign cyrHARDsign -69
+KPX cyrSOFTsign cyrDY -81
+KPX cyrSOFTsign cyrUbreve -22
+KPX cyrSOFTsign cyrhardsign -30
+KPX cyrE cyrA -34
+KPX cyrE cyrD -36
+KPX cyrE cyrL -30
+KPX cyrE cyrT -17
+KPX cyrE cyrU -43
+KPX cyrE cyrHARDsign -17
+KPX cyrE cyrYA -26
+KPX cyrE cyrLY -30
+KPX cyrE cyrDY -17
+KPX cyrE cyrUbreve -43
+KPX cyrE cyrly -16
+KPX cyrYU cyrA -31
+KPX cyrYU cyrD -31
+KPX cyrYU cyrZH -26
+KPX cyrYU cyrZ -34
+KPX cyrYU cyrL -25
+KPX cyrYU cyrT -19
+KPX cyrYU cyrU -43
+KPX cyrYU cyrKH -28
+KPX cyrYU cyrHARDsign -19
+KPX cyrYU cyrYA -26
+KPX cyrYU cyrLY -25
+KPX cyrYU cyrDY -19
+KPX cyrYU cyrUbreve -43
+KPX cyrYU cyrl -14
+KPX cyrYU cyrly -15
+KPX cyra cyru -18
+KPX cyra cyrly 33
+KPX cyra cyrch -15
+KPX cyra cyrubreve -18
+KPX cyrb cyrzh -15
+KPX cyrb cyrz -19
+KPX cyrb cyru -11
+KPX cyrb cyrkh -32
+KPX cyrb cyrubreve -11
+KPX cyrv cyrzh -10
+KPX cyrv cyrt 11
+KPX cyrv cyrkh -24
+KPX cyrv cyrya -8
+KPX cyrg period -118
+KPX cyrg colon -9
+KPX cyrg comma -117
+KPX cyrg semicolon -9
+KPX cyrg hyphen -96
+KPX cyrg cyrd -47
+KPX cyrg cyrl -26
+KPX cyrg cyrly -26
+KPX cyrg cyrubreve 43
+KPX cyrye cyrl 8
+KPX cyrye cyru -17
+KPX cyrye cyrkh -9
+KPX cyrye cyrubreve -17
+KPX cyrzh cyrb -8
+KPX cyrzh cyrye -18
+KPX cyrzh cyrz 18
+KPX cyrzh cyro -17
+KPX cyrzh cyrs -18
+KPX cyrzh cyrf -17
+KPX cyrzh cyrsovye -17
+KPX cyrzh cyrubreve 15
+KPX cyrz cyrzh -15
+KPX cyrz cyrl 8
+KPX cyrz cyrt 10
+KPX cyrz cyrkh -32
+KPX cyrz cyrya -10
+KPX cyrk cyra -21
+KPX cyrk cyrb -12
+KPX cyrk cyrye -29
+KPX cyrk cyro -28
+KPX cyrk cyrs -29
+KPX cyrk cyrf -28
+KPX cyrk cyrsovye -28
+KPX cyrk cyrubreve 12
+KPX cyro cyrzh -17
+KPX cyro cyrz -18
+KPX cyro cyru -15
+KPX cyro cyrkh -34
+KPX cyro cyrubreve -15
+KPX cyrr period -21
+KPX cyrr colon -40
+KPX cyrr comma -21
+KPX cyrr semicolon -37
+KPX cyrr hyphen 25
+KPX cyrr cyrzh -15
+KPX cyrr cyrz -20
+KPX cyrr cyru -10
+KPX cyrr cyrkh -33
+KPX cyrr cyrya -8
+KPX cyrr cyrubreve -11
+KPX cyrs cyrzh 13
+KPX cyrs cyrl 21
+KPX cyrs cyro -19
+KPX cyrs cyrt 24
+KPX cyrs cyru 23
+KPX cyrs cyrf -19
+KPX cyrs cyrya 16
+KPX cyrs cyrly 21
+KPX cyrt period -66
+KPX cyrt comma -66
+KPX cyrt guillemotright 31
+KPX cyrt hyphen -45
+KPX cyrt cyrd -43
+KPX cyrt cyrz 18
+KPX cyrt cyrl -22
+KPX cyrt cyrt 48
+KPX cyrt cyru 47
+KPX cyrt cyrly -22
+KPX cyrt cyrch 31
+KPX cyrt cyrubreve 46
+KPX cyru period -58
+KPX cyru comma -57
+KPX cyru guillemotright 15
+KPX cyru cyrd -44
+KPX cyru cyrye -14
+KPX cyru cyrz 16
+KPX cyru cyrl -24
+KPX cyru cyro -14
+KPX cyru cyrs -13
+KPX cyru cyrt 46
+KPX cyru cyrf -15
+KPX cyru cyrya -9
+KPX cyru cyrsovye -14
+KPX cyru cyrly -24
+KPX cyru cyrch 30
+KPX cyrf cyrd -16
+KPX cyrf cyrzh -18
+KPX cyrf cyrz -19
+KPX cyrf cyru -17
+KPX cyrf cyrkh -35
+KPX cyrf cyrya -10
+KPX cyrf cyrly -7
+KPX cyrf cyrubreve -18
+KPX cyrkh cyra -22
+KPX cyrkh cyrye -37
+KPX cyrkh cyro -36
+KPX cyrkh cyrs -37
+KPX cyrkh cyrf -36
+KPX cyrkh cyrsovye -36
+KPX cyrkh cyrubreve 19
+KPX cyrhardsign cyrt -68
+KPX cyrhardsign cyru -42
+KPX cyrhardsign cyrhardsign -45
+KPX cyrhardsign cyrch -11
+KPX cyrhardsign cyrubreve -43
+KPX cyrsoftsign cyrt -68
+KPX cyrsoftsign cyru -43
+KPX cyrsoftsign cyrhardsign -46
+KPX cyrsoftsign cyrch -12
+KPX cyrsoftsign cyrubreve -43
+KPX cyre cyrl -8
+KPX cyre cyru -12
+KPX cyre cyrya -10
+KPX cyre cyrly -11
+KPX cyre cyrubreve -13
+KPX cyryu cyrzh -16
+KPX cyryu cyrz -18
+KPX cyryu cyru -14
+KPX cyryu cyrkh -34
+KPX cyryu cyrubreve -15
+EndKernPairs
+EndKernData
+EndFontMetrics

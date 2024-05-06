@@ -1,0 +1,11 @@
+# CorelDRAW imbedded FontTastic font server configuration file
+
+clone-self   = off
+use-syslog   = off
+catalogue    = $CORELHOME/fonts/install/,$CORELHOME/fonts/fonttastic/,
+	       $CORELHOME/fonts/cd3-truetype/
+error-file   = /dev/null
+well-behaved = on
+# in decipoints
+default-point-size  = 120
+default-resolutions = 75,75,100,100
